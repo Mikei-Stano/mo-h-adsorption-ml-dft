@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+
+# GPAW heavy outputs
+/data/outputs/gpaw_calculations/
+
+# Docs (keep locally, ignore in git)
+/docs/
+
+# Optional: Jupyter
+.ipynb_checkpoints/
