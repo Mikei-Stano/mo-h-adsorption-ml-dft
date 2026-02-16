@@ -54,6 +54,26 @@ RELAXATION_CONFIG = {
 }
 
 
+def discover_structures(base_dir):
+    """Discover all POSCAR files under base_dir and return labels."""
+    base_path = Path(base_dir)
+    if not base_path.exists():
+        return []
+
+    items = []
+    for entry in sorted(base_path.iterdir()):
+        if not entry.is_dir():
+            continue
+        poscar = entry / "POSCAR"
+        if not poscar.exists():
+            continue
+        parts = entry.name.split("_", 1)
+        formula = parts[0]
+        surface = parts[1] if len(parts) > 1 else "unknown"
+        items.append((formula, surface, entry))
+    return items
+
+
 def setup_gpaw_calculator(label='gpaw'):
     """
     Create GPAW calculator with optimized settings
@@ -295,7 +315,8 @@ def calculate_surface_properties(formula, miller, slab_file, output_dir):
 def run_calculations_parallel(formulas=['MoS2', 'MoSe2', 'MoP', 'Mo2N'],
                              millers=['(100)', '(110)', '(111)'],
                              base_dir=None,
-                             results_file=None):
+                             results_file=None,
+                             use_discovery=True):
     """
     Run all calculations (can parallelize)
     
@@ -320,23 +341,41 @@ def run_calculations_parallel(formulas=['MoS2', 'MoSe2', 'MoP', 'Mo2N'],
     
     all_results = []
     
-    for formula in formulas:
-        for miller in millers:
-            # Build paths
-            dir_name = f"{formula}_{miller.replace('(', '').replace(')', '')}"
-            poscar_dir = Path(base_dir) / f"{formula}_{miller}"
+    if use_discovery:
+        structures = discover_structures(base_dir)
+        if not structures:
+            print("\n⚠️  No POSCAR files found in data/inputs/VASP_inputs")
+            return all_results
+
+        for formula, surface, poscar_dir in structures:
             poscar_file = poscar_dir / "POSCAR"
-            output_dir = GPAW_OUTPUTS / dir_name
-            
-            # Run calculation
+            output_dir = GPAW_OUTPUTS / poscar_dir.name
+
             result = calculate_surface_properties(
                 formula=formula,
-                miller=miller,
+                miller=surface,
                 slab_file=str(poscar_file),
                 output_dir=str(output_dir)
             )
-            
             all_results.append(result)
+    else:
+        for formula in formulas:
+            for miller in millers:
+                # Build paths
+                dir_name = f"{formula}_{miller.replace('(', '').replace(')', '')}"
+                poscar_dir = Path(base_dir) / f"{formula}_{miller}"
+                poscar_file = poscar_dir / "POSCAR"
+                output_dir = GPAW_OUTPUTS / dir_name
+                
+                # Run calculation
+                result = calculate_surface_properties(
+                    formula=formula,
+                    miller=miller,
+                    slab_file=str(poscar_file),
+                    output_dir=str(output_dir)
+                )
+                
+                all_results.append(result)
     
     return all_results
 
