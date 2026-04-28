@@ -167,8 +167,17 @@ maybe_install_system_deps() {
 }
 
 install_pyenv_if_missing() {
+  export PYENV_ROOT="${PYENV_ROOT:-${HOME}/.pyenv}"
+
   if command -v pyenv >/dev/null 2>&1; then
     log "pyenv already installed: $(pyenv --version)"
+    return
+  fi
+
+  if [[ -x "${PYENV_ROOT}/bin/pyenv" ]]; then
+    export PATH="${PYENV_ROOT}/bin:${PATH}"
+    eval "$(pyenv init -)"
+    log "Using existing pyenv from ${PYENV_ROOT}"
     return
   fi
 
@@ -176,7 +185,6 @@ install_pyenv_if_missing() {
   require_cmd curl
   curl -fsSL https://pyenv.run | bash
 
-  export PYENV_ROOT="${HOME}/.pyenv"
   export PATH="${PYENV_ROOT}/bin:${PATH}"
   eval "$(pyenv init -)"
 
