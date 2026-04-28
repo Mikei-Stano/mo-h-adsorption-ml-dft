@@ -83,8 +83,10 @@ build_rootless_deps() {
 
 configure_python_build_env() {
   local libdir="${BOOTSTRAP_PREFIX}/lib"
+  local rpath_flags="-Wl,-rpath,${BOOTSTRAP_PREFIX}/lib"
   if [[ -d "${BOOTSTRAP_PREFIX}/lib64" ]]; then
     libdir="${BOOTSTRAP_PREFIX}/lib64:${BOOTSTRAP_PREFIX}/lib"
+    rpath_flags="-Wl,-rpath,${BOOTSTRAP_PREFIX}/lib64 -Wl,-rpath,${BOOTSTRAP_PREFIX}/lib"
   fi
 
   export CPPFLAGS="$(append_unique_flag "${CPPFLAGS:-}" "-I${BOOTSTRAP_PREFIX}/include")"
@@ -92,6 +94,9 @@ configure_python_build_env() {
   if [[ -d "${BOOTSTRAP_PREFIX}/lib64" ]]; then
     export LDFLAGS="$(append_unique_flag "${LDFLAGS:-}" "-L${BOOTSTRAP_PREFIX}/lib64")"
   fi
+  for flag in ${rpath_flags}; do
+    export LDFLAGS="$(append_unique_flag "${LDFLAGS:-}" "$flag")"
+  done
   export PKG_CONFIG_PATH="${BOOTSTRAP_PREFIX}/lib/pkgconfig:${BOOTSTRAP_PREFIX}/lib64/pkgconfig:${PKG_CONFIG_PATH:-}"
   export LD_LIBRARY_PATH="${libdir}:${LD_LIBRARY_PATH:-}"
   export PYTHON_CONFIGURE_OPTS="${PYTHON_CONFIGURE_OPTS:-} --enable-shared"
@@ -255,6 +260,9 @@ PY
   log "Done. Activate with one of:"
   echo "  pyenv activate ${ENV_NAME}"
   echo "  source \"${PYENV_ROOT}/versions/${ENV_NAME}/bin/activate\""
+  echo
+  log "If your cluster strips library paths in batch/nohup shells, export this before running Python:"
+  echo "  export LD_LIBRARY_PATH=\"${BOOTSTRAP_PREFIX}/lib64:${BOOTSTRAP_PREFIX}/lib:\${LD_LIBRARY_PATH:-}\""
 }
 
 main() {
