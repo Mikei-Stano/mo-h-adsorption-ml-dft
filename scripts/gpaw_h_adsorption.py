@@ -22,6 +22,7 @@ import fcntl
 import argparse
 import fnmatch
 import time
+import sys
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -197,6 +198,23 @@ def discover_structures(base_dir, include_patterns=None):
         surface = parts[1] if len(parts) > 1 else "unknown"
         items.append((formula, surface, entry))
     return items
+
+
+def filter_structures_by_name(structures, selected_names):
+    """Keep only structure directories whose names were explicitly requested."""
+    if not selected_names:
+        return structures
+
+    requested = [name.strip() for name in selected_names if name and name.strip()]
+    if not requested:
+        return structures
+
+    requested_set = set(requested)
+    filtered = [item for item in structures if item[2].name in requested_set]
+    missing = [name for name in requested if name not in {item[2].name for item in filtered}]
+    if missing:
+        raise ValueError(f"Requested structures not found: {', '.join(missing)}")
+    return filtered
 
 
 def setup_gpaw_calculator(label='gpaw'):
@@ -609,6 +627,7 @@ def run_calculations_parallel(formulas=['MoS2', 'MoSe2', 'MoP', 'Mo2N'],
                              results_file=None,
                              use_discovery=True,
                              include_patterns=None,
+                             selected_structure_names=None,
                              workers_override=None,
                              max_hours_per_structure=None):
     """
@@ -644,6 +663,7 @@ def run_calculations_parallel(formulas=['MoS2', 'MoSe2', 'MoP', 'Mo2N'],
     
     if use_discovery:
         structures = discover_structures(base_dir, include_patterns=include_patterns)
+        structures = filter_structures_by_name(structures, selected_structure_names)
         if not structures:
             print("\n⚠️  No POSCAR files found in data/inputs/VASP_inputs")
             return all_results
@@ -831,6 +851,14 @@ def main():
         help='Only list structures that would be computed, then exit',
     )
     parser.add_argument(
+        '--write-structure-list', type=str, default=None,
+        help='Write matched structure directory names to a text file, one per line, then exit',
+    )
+    parser.add_argument(
+        '--structure-name', action='append', default=None,
+        help='Run only the given structure directory name. May be provided multiple times or as a comma-separated list.',
+    )
+    parser.add_argument(
         '--workers', type=int, default=None,
         help='Manual number of parallel workers (overrides auto-detection)',
     )
@@ -868,6 +896,13 @@ def main():
     elif args.include:
         include_patterns = [p.strip() for p in args.include.split(',')]
 
+    selected_structure_names = None
+    if args.structure_name:
+        selected_structure_names = []
+        for value in args.structure_name:
+            selected_structure_names.extend(part.strip() for part in value.split(',') if part.strip())
+        print(f"Explicit structures: {', '.join(selected_structure_names)}")
+
     # Runtime overrides
     if args.cores_per_calc is not None:
         CORES_PER_CALC = max(1, int(args.cores_per_calc))
@@ -898,12 +933,23 @@ def main():
             raise ValueError(f"Invalid --kpts '{args.kpts}': {exc}")
 
     # List-only mode
-    if args.list_only:
+    if args.list_only or args.write_structure_list:
         structures = discover_structures(DATA_INPUTS, include_patterns=include_patterns)
+        structures = filter_structures_by_name(structures, selected_structure_names)
         print(f"\nStructures matched: {len(structures)}")
         for formula, surface, poscar_dir in structures:
             print(f"  {poscar_dir.name}")
-        return
+        if args.write_structure_list:
+            output_path = Path(args.write_structure_list)
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            output_path.write_text(''.join(f"{poscar_dir.name}\n" for _, _, poscar_dir in structures))
+            print(f"\n✓ Wrote structure manifest: {output_path}")
+        if args.list_only or args.write_structure_list:
+            return
+
+    if selected_structure_names:
+        args.workers = 1
+        print("Single-structure mode: forcing workers=1 for scheduler-friendly execution")
 
     # Invalidate H2 cache if relaxation config changed
     if H2_REFERENCE_FILE.exists():
@@ -920,6 +966,7 @@ def main():
     # Run calculations
     results = run_calculations_parallel(
         include_patterns=include_patterns,
+        selected_structure_names=selected_structure_names,
         workers_override=args.workers,
         max_hours_per_structure=args.max_hours_per_structure,
     )
