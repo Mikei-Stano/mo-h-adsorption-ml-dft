@@ -6,6 +6,7 @@ MANIFEST_PATH="${MANIFEST_PATH:-}"
 TASK_ID="${SLURM_ARRAY_TASK_ID:-${TASK_ID:-}}"
 ENV_NAME="${ENV_NAME:-cemea-env}"
 PYENV_ROOT="${PYENV_ROOT:-${HOME}/.pyenv}"
+BOOTSTRAP_PREFIX="${BOOTSTRAP_PREFIX:-${HOME}/.local/mo_h_bootstrap}"
 CORES_PER_CALC="${SLURM_CPUS_PER_TASK:-${CORES_PER_CALC:-1}}"
 RELAX_STEPS="${RELAX_STEPS:-8}"
 FMAX="${FMAX:-0.10}"
@@ -31,6 +32,8 @@ if [[ -x "${PYENV_ROOT}/bin/pyenv" ]]; then
   export PATH="${PYENV_ROOT}/bin:${PATH}"
   eval "$(pyenv init -)"
 fi
+
+export LD_LIBRARY_PATH="${BOOTSTRAP_PREFIX}/lib64:${BOOTSTRAP_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
 
 if [[ -x "${PYENV_ROOT}/versions/${ENV_NAME}/bin/python" ]]; then
   PYTHON_BIN="${PYENV_ROOT}/versions/${ENV_NAME}/bin/python"

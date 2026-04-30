@@ -12,8 +12,8 @@ FMAX="${FMAX:-0.10}"
 MAX_HOURS_PER_STRUCTURE="${MAX_HOURS_PER_STRUCTURE:-0}"
 KPTS="${KPTS:-}"
 
-if [[ "${MACHINE}" != "node1" && "${MACHINE}" != "node2" ]]; then
-  echo "MACHINE must be node1 or node2 for desktop execution." >&2
+if [[ "${MACHINE}" != "node1" && "${MACHINE}" != "node2" && "${MACHINE}" != "node3" ]]; then
+  echo "MACHINE must be node1, node2, or node3 for desktop execution." >&2
   echo "For DEVANA SLURM submission, use scripts/submit_devana_gpaw_array.sh (MACHINE=devana)." >&2
   exit 1
 fi

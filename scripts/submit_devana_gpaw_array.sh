@@ -5,6 +5,7 @@ WORKFLOW_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 PYENV_ROOT="${PYENV_ROOT:-${HOME}/.pyenv}"
 ENV_NAME="${ENV_NAME:-cemea-env}"
 MACHINE="${MACHINE:-devana}"
+BOOTSTRAP_PREFIX="${BOOTSTRAP_PREFIX:-${HOME}/.local/mo_h_bootstrap}"
 ACCOUNT="${ACCOUNT:-}"
 PARTITION="${PARTITION:-cpu}" 
 TIME_LIMIT="${TIME_LIMIT:-24:00:00}"
@@ -51,6 +52,8 @@ if [[ -x "${PYENV_ROOT}/bin/pyenv" ]]; then
   eval "$(pyenv init -)"
 fi
 
+export LD_LIBRARY_PATH="${BOOTSTRAP_PREFIX}/lib64:${BOOTSTRAP_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
+
 if [[ -x "${PYENV_ROOT}/versions/${ENV_NAME}/bin/python" ]]; then
   PYTHON_BIN="${PYENV_ROOT}/versions/${ENV_NAME}/bin/python"
 else
@@ -80,5 +83,5 @@ sbatch \
   --cpus-per-task="${CPUS_PER_TASK}" \
   --mem-per-cpu="${MEM_PER_CPU}" \
   --array="1-${TASK_COUNT}" \
-  --export=ALL,MANIFEST_PATH="${MANIFEST_PATH}",ENV_NAME="${ENV_NAME}",PYENV_ROOT="${PYENV_ROOT}",RELAX_STEPS="${RELAX_STEPS}",FMAX="${FMAX}",MAX_HOURS_PER_STRUCTURE="${MAX_HOURS_PER_STRUCTURE}",KPTS="${KPTS}" \
+  --export=ALL,MANIFEST_PATH="${MANIFEST_PATH}",ENV_NAME="${ENV_NAME}",PYENV_ROOT="${PYENV_ROOT}",BOOTSTRAP_PREFIX="${BOOTSTRAP_PREFIX}",RELAX_STEPS="${RELAX_STEPS}",FMAX="${FMAX}",MAX_HOURS_PER_STRUCTURE="${MAX_HOURS_PER_STRUCTURE}",KPTS="${KPTS}" \
   "${WORKFLOW_ROOT}/scripts/devana_gpaw_array_worker.sh"

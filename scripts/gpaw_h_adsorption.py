@@ -796,7 +796,7 @@ def save_results(results, json_file=None,
 
 # ── Pre-defined machine splits ───────────────────────────────────
 MACHINE_SPLITS = {
-    # DEVANA (64 CPUs): lighter/moderate structures
+    # DEVANA (64 CPUs): 159 structures (~46.5%)
     'devana': [
         'Ni_Mo2N_interface_*',
         'Ni_MoS2_interface_*',
@@ -808,17 +808,20 @@ MACHINE_SPLITS = {
         'Ni2_on_*',
         'Ni4_on_*',
     ],
-    # NODE1 (192 CPUs): heaviest MoB family
+    # NODE1 (32 CPUs): 79 structures (~23.1%)
     'node1': [
         'Ni_MoB_interface_*',
         'MoB_*',
     ],
-    # NODE2 (112 CPUs): medium-heavy carbide/MXene family
+    # NODE2 (24 CPUs): 61 structures (~17.8%)
     'node2': [
         'Ni_Mo2C_interface_*',
         'Ni_Ti3C2O2_interface_*',
-        'Mo2C_*',
         'Ti3C2O2_*',
+    ],
+    # NODE3 (16 CPUs): 43 structures (~12.6%)
+    'node3': [
+        'Mo2C_*',
     ],
 }
 
