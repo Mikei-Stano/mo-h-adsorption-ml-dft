@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-WORKFLOW_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+WORKFLOW_ROOT="${WORKFLOW_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
 MANIFEST_PATH="${MANIFEST_PATH:-}"
 TASK_ID="${SLURM_ARRAY_TASK_ID:-${TASK_ID:-}}"
 ENV_NAME="${ENV_NAME:-cemea-env}"
