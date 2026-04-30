@@ -28,6 +28,24 @@ if [[ -z "${ACCOUNT}" ]]; then
   exit 1
 fi
 
+if [[ -z "${PARTITION}" ]]; then
+  echo "PARTITION is required (no default)." >&2
+  if command -v sinfo >/dev/null 2>&1; then
+    echo "Available partitions:" >&2
+    sinfo -h -o "%P" | sed 's/*//g' | sort -u >&2
+  fi
+  exit 1
+fi
+
+if command -v sinfo >/dev/null 2>&1; then
+  if ! sinfo -h -o "%P" | sed 's/*//g' | awk '{print $1}' | grep -Fxq "${PARTITION}"; then
+    echo "Invalid partition: ${PARTITION}" >&2
+    echo "Available partitions:" >&2
+    sinfo -h -o "%P" | sed 's/*//g' | sort -u >&2
+    exit 1
+  fi
+fi
+
 if [[ -x "${PYENV_ROOT}/bin/pyenv" ]]; then
   export PATH="${PYENV_ROOT}/bin:${PATH}"
   eval "$(pyenv init -)"
