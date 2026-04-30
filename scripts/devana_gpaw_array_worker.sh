@@ -30,7 +30,6 @@ fi
 
 if [[ -x "${PYENV_ROOT}/bin/pyenv" ]]; then
   export PATH="${PYENV_ROOT}/bin:${PATH}"
-  eval "$(pyenv init -)"
 fi
 
 export LD_LIBRARY_PATH="${BOOTSTRAP_PREFIX}/lib64:${BOOTSTRAP_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
@@ -52,6 +51,7 @@ echo "[$(date --iso-8601=seconds)] Using ${CORES_PER_CALC} CPU(s) per task"
 
 cmd=(
   "${PYTHON_BIN}"
+  -u
   "${WORKFLOW_ROOT}/scripts/gpaw_h_adsorption.py"
   --structure-name "${STRUCTURE_NAME}"
   --workers 1

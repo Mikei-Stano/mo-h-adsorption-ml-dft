@@ -49,7 +49,6 @@ fi
 
 if [[ -x "${PYENV_ROOT}/bin/pyenv" ]]; then
   export PATH="${PYENV_ROOT}/bin:${PATH}"
-  eval "$(pyenv init -)"
 fi
 
 export LD_LIBRARY_PATH="${BOOTSTRAP_PREFIX}/lib64:${BOOTSTRAP_PREFIX}/lib:${LD_LIBRARY_PATH:-}"

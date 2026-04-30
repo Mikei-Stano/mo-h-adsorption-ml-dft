@@ -20,7 +20,6 @@ fi
 
 if [[ -x "${PYENV_ROOT}/bin/pyenv" ]]; then
   export PATH="${PYENV_ROOT}/bin:${PATH}"
-  eval "$(pyenv init -)"
 fi
 
 if [[ -x "${PYENV_ROOT}/versions/${ENV_NAME}/bin/python" ]]; then
