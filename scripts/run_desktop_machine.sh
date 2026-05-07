@@ -11,6 +11,7 @@ RELAX_STEPS="${RELAX_STEPS:-8}"
 FMAX="${FMAX:-0.10}"
 MAX_HOURS_PER_STRUCTURE="${MAX_HOURS_PER_STRUCTURE:-0}"
 KPTS="${KPTS:-}"
+BASIS="${BASIS:-}"
 
 if [[ "${MACHINE}" != "node1" && "${MACHINE}" != "node2" && "${MACHINE}" != "node3" ]]; then
   echo "MACHINE must be node1, node2, or node3 for desktop execution." >&2
@@ -58,6 +59,10 @@ fi
 
 if [[ -n "${KPTS}" ]]; then
   cmd+=(--kpts "${KPTS}")
+fi
+
+if [[ -n "${BASIS}" ]]; then
+  cmd+=(--basis "${BASIS}")
 fi
 
 exec "${cmd[@]}"

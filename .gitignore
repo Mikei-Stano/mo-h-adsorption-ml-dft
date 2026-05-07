@@ -11,3 +11,18 @@ __pycache__/
 
 # Optional: Jupyter
 .ipynb_checkpoints/
+
+# Runtime / job output
+logs/
+nohup.out
+*.gpw
+*.traj
+*.bfgs.json
+_gpaw_build_*.log
+
+# Explicitly keep pre-computed Stage 0/1 results (other nodes use these as checkpoints)
+!data/outputs/mace_h_adsorption_stage0_screening.csv
+!data/outputs/gpaw_h_adsorption_stage1_screening_sz.csv
+!data/outputs/manifests/
+!data/outputs/manifests/**
+!data/outputs/h2_reference_*.json

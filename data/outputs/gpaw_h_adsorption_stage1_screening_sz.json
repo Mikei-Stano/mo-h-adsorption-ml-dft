@@ -1,0 +1,22 @@
+[
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_cluster2Ag",
+    "timestamp": "2026-05-07T08:28:41.026014",
+    "status": "completed",
+    "E_clean_slab": -223.63298337190966,
+    "E_slab_with_h": -226.8112085111246,
+    "E_h2": -5.152636936046707,
+    "\u0394GH": -0.601906671191577,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.236095235665819,
+      6.784761902332486,
+      23.341067126598045
+    ],
+    "h2_source": "cache",
+    "relaxed": true,
+    "restart_used": false,
+    "error": null
+  }
+]

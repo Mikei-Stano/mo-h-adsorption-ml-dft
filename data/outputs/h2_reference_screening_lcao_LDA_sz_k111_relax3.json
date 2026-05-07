@@ -1,0 +1,17 @@
+{
+  "E_h2_eV": -5.152636936046707,
+  "timestamp": "2026-05-05T13:45:15.434418",
+  "stage": "screening",
+  "gpaw_config": {
+    "mode": "lcao",
+    "basis": "sz",
+    "xc": "LDA",
+    "kpts": [
+      1,
+      1,
+      1
+    ]
+  },
+  "relaxation_steps": 3,
+  "use_relaxation": true
+}

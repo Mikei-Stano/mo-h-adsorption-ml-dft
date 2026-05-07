@@ -1,0 +1,6424 @@
+[
+  {
+    "formula": "Mo2C",
+    "surface": "(100)",
+    "timestamp": "2026-05-05T16:23:50.084969",
+    "status": "completed",
+    "E_clean_slab": -731.5917983615163,
+    "E_slab_with_h": -735.3550327217614,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.48439055618225835,
+    "adsorption_site": "top_2",
+    "h_position": [
+      8.33106,
+      8.22232,
+      27.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 65.66,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(100)_dopAg",
+    "timestamp": "2026-05-05T16:24:55.742603",
+    "status": "completed",
+    "E_clean_slab": -725.5747930668625,
+    "E_slab_with_h": -729.3499013366942,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.49626446576885597,
+    "adsorption_site": "top_4",
+    "h_position": [
+      8.33106,
+      3.0183199999999997,
+      27.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 63.43,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(100)_dopAu",
+    "timestamp": "2026-05-05T16:25:59.167771",
+    "status": "completed",
+    "E_clean_slab": -726.3125259542016,
+    "E_slab_with_h": -730.0900638310139,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.49869407274948285,
+    "adsorption_site": "top_4",
+    "h_position": [
+      8.33106,
+      3.0183199999999997,
+      27.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 75.33,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(100)_dopIr",
+    "timestamp": "2026-05-05T16:27:14.496590",
+    "status": "completed",
+    "E_clean_slab": -730.1621916501467,
+    "E_slab_with_h": -734.8855739545961,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.4445385003865812,
+    "adsorption_site": "top_1",
+    "h_position": [
+      5.31256,
+      4.787680000000001,
+      27.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 75.45,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(100)_dopNi",
+    "timestamp": "2026-05-05T16:28:29.947475",
+    "status": "completed",
+    "E_clean_slab": -727.2025954435219,
+    "E_slab_with_h": -731.1388773564627,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.657438108877979,
+    "adsorption_site": "top_1",
+    "h_position": [
+      5.31256,
+      4.787680000000001,
+      27.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 82.75,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(100)_dopPd",
+    "timestamp": "2026-05-05T16:29:52.692889",
+    "status": "completed",
+    "E_clean_slab": -727.7998751424814,
+    "E_slab_with_h": -731.6424756798937,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5637567333494888,
+    "adsorption_site": "top_1",
+    "h_position": [
+      5.31256,
+      4.787680000000001,
+      27.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 64.89,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(100)_dopPt",
+    "timestamp": "2026-05-05T16:30:57.585849",
+    "status": "completed",
+    "E_clean_slab": -728.5607406885119,
+    "E_slab_with_h": -732.6040581743704,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.7644736817956317,
+    "adsorption_site": "top_1",
+    "h_position": [
+      5.31256,
+      4.787680000000001,
+      27.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 73.53,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(100)_dopRu",
+    "timestamp": "2026-05-05T16:32:11.112649",
+    "status": "completed",
+    "E_clean_slab": -730.5494885708919,
+    "E_slab_with_h": -735.041652354705,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.2133199797503056,
+    "adsorption_site": "top_1",
+    "h_position": [
+      5.31256,
+      4.787680000000001,
+      27.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 76.41,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(100)_sheet",
+    "timestamp": "2026-05-05T16:33:27.518191",
+    "status": "completed",
+    "E_clean_slab": -2926.3671934460885,
+    "E_slab_with_h": -2930.130415815132,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.4843785649806267,
+    "adsorption_site": "top_2",
+    "h_position": [
+      14.36806,
+      13.426319999999999,
+      29.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 304.15,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(100)_vac2C",
+    "timestamp": "2026-05-05T16:38:31.669449",
+    "status": "completed",
+    "E_clean_slab": -731.5917983615163,
+    "E_slab_with_h": -735.3550327217614,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.48439055618225835,
+    "adsorption_site": "top_2",
+    "h_position": [
+      8.33106,
+      8.22232,
+      27.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 82.15,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(100)_vac2Mo",
+    "timestamp": "2026-05-05T16:39:53.819052",
+    "status": "completed",
+    "E_clean_slab": -714.0615844798061,
+    "E_slab_with_h": -717.8327576389416,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.49232935507270836,
+    "adsorption_site": "top_1",
+    "h_position": [
+      8.33106,
+      8.22232,
+      27.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 82.86,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(100)_vacC",
+    "timestamp": "2026-05-05T16:41:16.683419",
+    "status": "completed",
+    "E_clean_slab": -731.5917983615163,
+    "E_slab_with_h": -735.3550327217614,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.48439055618225835,
+    "adsorption_site": "top_2",
+    "h_position": [
+      8.33106,
+      8.22232,
+      27.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 84.53,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(100)_vacMo",
+    "timestamp": "2026-05-05T16:42:41.214119",
+    "status": "completed",
+    "E_clean_slab": -722.5657509414185,
+    "E_slab_with_h": -726.347788943257,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5031941977756804,
+    "adsorption_site": "top_3",
+    "h_position": [
+      8.33106,
+      3.0183199999999997,
+      27.245000000000005
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 84.48,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)",
+    "timestamp": "2026-05-05T16:44:05.695980",
+    "status": "completed",
+    "E_clean_slab": -726.9237957366935,
+    "E_slab_with_h": -731.1676374213074,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.9649978805511199,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      10.376829996193903,
+      3.01832,
+      23.428730687819762
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 104.62,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)_dopAg",
+    "timestamp": "2026-05-05T16:45:50.318292",
+    "status": "completed",
+    "E_clean_slab": -720.8616692801934,
+    "E_slab_with_h": -725.1239360087158,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.9834229244595707,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      10.376829996193903,
+      3.01832,
+      23.428730687819762
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 111.91,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)_dopAu",
+    "timestamp": "2026-05-05T16:47:42.227128",
+    "status": "completed",
+    "E_clean_slab": -721.5178511450277,
+    "E_slab_with_h": -725.4596678353628,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6629728862722248,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      10.376829996193903,
+      5.6203199999999995,
+      23.428730687819762
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 97.6,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)_dopIr",
+    "timestamp": "2026-05-05T16:49:19.824583",
+    "status": "completed",
+    "E_clean_slab": -724.8744600090221,
+    "E_slab_with_h": -729.4799289859101,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.326625172825199,
+    "adsorption_site": "top_2",
+    "h_position": [
+      6.541559699330851,
+      3.01832,
+      23.428730687819762
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 114.7,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)_dopNi",
+    "timestamp": "2026-05-05T16:51:14.527069",
+    "status": "completed",
+    "E_clean_slab": -722.2918478282263,
+    "E_slab_with_h": -726.3260495406935,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.7553579084043593,
+    "adsorption_site": "top_2",
+    "h_position": [
+      6.541559699330851,
+      3.01832,
+      23.428730687819762
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 100.42,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)_dopPd",
+    "timestamp": "2026-05-05T16:52:54.946574",
+    "status": "completed",
+    "E_clean_slab": -722.6727240422214,
+    "E_slab_with_h": -726.9466959509754,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.9951281046911862,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      10.376829996193903,
+      3.01832,
+      23.428730687819762
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 96.6,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)_dopPt",
+    "timestamp": "2026-05-05T16:54:31.545437",
+    "status": "completed",
+    "E_clean_slab": -723.2035346601597,
+    "E_slab_with_h": -727.2177069308066,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.7353284665840891,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      10.376829996193903,
+      5.6203199999999995,
+      23.428730687819762
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 109.27,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)_dopRu",
+    "timestamp": "2026-05-05T16:56:20.819559",
+    "status": "completed",
+    "E_clean_slab": -725.0425983588266,
+    "E_slab_with_h": -729.6673983958082,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.3459562329187764,
+    "adsorption_site": "top_2",
+    "h_position": [
+      6.541559699330851,
+      3.01832,
+      23.428730687819762
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 108.84,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)_sheet",
+    "timestamp": "2026-05-05T16:58:09.662143",
+    "status": "completed",
+    "E_clean_slab": -2907.695182946797,
+    "E_slab_with_h": -2911.194718156411,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.22069140555108957,
+    "adsorption_site": "top_3",
+    "h_position": [
+      14.212100293056954,
+      8.22232,
+      25.428730687819765
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 324.0,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)_vac2C",
+    "timestamp": "2026-05-05T17:03:33.666095",
+    "status": "completed",
+    "E_clean_slab": -726.9237957366935,
+    "E_slab_with_h": -731.1676374213074,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.9649978805511199,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      10.376829996193903,
+      3.01832,
+      23.428730687819762
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 104.17,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)_vac2Mo",
+    "timestamp": "2026-05-05T17:05:17.834461",
+    "status": "completed",
+    "E_clean_slab": -710.0444463970402,
+    "E_slab_with_h": -714.0874894823687,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.7641992812656571,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      14.212100293056954,
+      5.6203199999999995,
+      23.428730687819762
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 52.7,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)_vacC",
+    "timestamp": "2026-05-05T17:06:10.530306",
+    "status": "completed",
+    "E_clean_slab": -726.9237957366935,
+    "E_slab_with_h": -731.1676374213074,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.9649978805511199,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      10.376829996193903,
+      3.01832,
+      23.428730687819762
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 105.13,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(110)_vacMo",
+    "timestamp": "2026-05-05T17:07:55.659129",
+    "status": "completed",
+    "E_clean_slab": -718.4891203059575,
+    "E_slab_with_h": -722.5271338203355,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.7591697103152018,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      14.212100293056954,
+      5.6203199999999995,
+      23.428730687819762
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 76.24,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)",
+    "timestamp": "2026-05-05T17:09:11.899866",
+    "status": "completed",
+    "E_clean_slab": -720.6912465502786,
+    "E_slab_with_h": -726.2029717698523,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2328814155108847,
+    "adsorption_site": "top_4",
+    "h_position": [
+      19.805267496740722,
+      11.591553322780289,
+      20.402940122899217
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 91.99,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)_dopAg",
+    "timestamp": "2026-05-05T17:10:43.891347",
+    "status": "completed",
+    "E_clean_slab": -720.6912465502786,
+    "E_slab_with_h": -726.2029717698523,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2328814155108847,
+    "adsorption_site": "top_4",
+    "h_position": [
+      19.805267496740722,
+      11.591553322780289,
+      20.402940122899217
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 90.46,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)_dopAu",
+    "timestamp": "2026-05-05T17:12:14.350012",
+    "status": "completed",
+    "E_clean_slab": -720.6912465502786,
+    "E_slab_with_h": -726.2029717698523,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2328814155108847,
+    "adsorption_site": "top_4",
+    "h_position": [
+      19.805267496740722,
+      11.591553322780289,
+      20.402940122899217
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 92.76,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)_dopIr",
+    "timestamp": "2026-05-05T17:13:47.112737",
+    "status": "completed",
+    "E_clean_slab": -720.6912465502786,
+    "E_slab_with_h": -726.2029717698523,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2328814155108847,
+    "adsorption_site": "top_4",
+    "h_position": [
+      19.805267496740722,
+      11.591553322780289,
+      20.402940122899217
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 85.65,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)_dopNi",
+    "timestamp": "2026-05-05T17:15:12.758413",
+    "status": "completed",
+    "E_clean_slab": -720.6912465502786,
+    "E_slab_with_h": -726.2029717698523,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2328814155108847,
+    "adsorption_site": "top_4",
+    "h_position": [
+      19.805267496740722,
+      11.591553322780289,
+      20.402940122899217
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 92.06,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)_dopPd",
+    "timestamp": "2026-05-05T17:16:44.819492",
+    "status": "completed",
+    "E_clean_slab": -720.6912465502786,
+    "E_slab_with_h": -726.2029717698523,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2328814155108847,
+    "adsorption_site": "top_4",
+    "h_position": [
+      19.805267496740722,
+      11.591553322780289,
+      20.402940122899217
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 88.85,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)_dopPt",
+    "timestamp": "2026-05-05T17:18:13.674665",
+    "status": "completed",
+    "E_clean_slab": -720.6912465502786,
+    "E_slab_with_h": -726.2029717698523,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2328814155108847,
+    "adsorption_site": "top_4",
+    "h_position": [
+      19.805267496740722,
+      11.591553322780289,
+      20.402940122899217
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 89.59,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)_dopRu",
+    "timestamp": "2026-05-05T17:19:43.261208",
+    "status": "completed",
+    "E_clean_slab": -720.6912465502786,
+    "E_slab_with_h": -726.2029717698523,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2328814155108847,
+    "adsorption_site": "top_4",
+    "h_position": [
+      19.805267496740722,
+      11.591553322780289,
+      20.402940122899217
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 84.04,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)_sheet",
+    "timestamp": "2026-05-05T17:21:07.302357",
+    "status": "completed",
+    "E_clean_slab": -2882.7649862011385,
+    "E_slab_with_h": -2888.2767115697807,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.23288156457934,
+    "adsorption_site": "top_3",
+    "h_position": [
+      30.689249727301874,
+      18.570277260924648,
+      22.402940122899217
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 392.81,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)_vac2C",
+    "timestamp": "2026-05-05T17:27:40.113716",
+    "status": "completed",
+    "E_clean_slab": -705.2622699872841,
+    "E_slab_with_h": -710.7772733683818,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.236159577034893,
+    "adsorption_site": "top_1",
+    "h_position": [
+      19.805267496740722,
+      11.591553322780289,
+      20.402940122899217
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 49.82,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)_vac2Mo",
+    "timestamp": "2026-05-05T17:28:29.932925",
+    "status": "completed",
+    "E_clean_slab": -720.6912465502786,
+    "E_slab_with_h": -726.2029717698523,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2328814155108847,
+    "adsorption_site": "top_4",
+    "h_position": [
+      19.805267496740722,
+      11.591553322780289,
+      20.402940122899217
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 87.22,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)_vacC",
+    "timestamp": "2026-05-05T17:29:57.148272",
+    "status": "completed",
+    "E_clean_slab": -712.9768781179031,
+    "E_slab_with_h": -718.4909264162884,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2352044943225127,
+    "adsorption_site": "top_3",
+    "h_position": [
+      15.955021115641078,
+      4.6128293846359325,
+      20.402940122899217
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 94.56,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "(111)_vacMo",
+    "timestamp": "2026-05-05T17:31:31.703610",
+    "status": "completed",
+    "E_clean_slab": -720.6912465502786,
+    "E_slab_with_h": -726.2029717698523,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2328814155108847,
+    "adsorption_site": "top_4",
+    "h_position": [
+      19.805267496740722,
+      11.591553322780289,
+      20.402940122899217
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 91.28,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "edge_C",
+    "timestamp": "2026-05-05T17:33:02.979853",
+    "status": "completed",
+    "E_clean_slab": -487.89007462145617,
+    "E_slab_with_h": -491.4223800863941,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.25346166087515654,
+    "adsorption_site": "top_1",
+    "h_position": [
+      21.013000000000005,
+      11.34956,
+      13.87136
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 37.37,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "edge_C_large",
+    "timestamp": "2026-05-05T17:33:40.351200",
+    "status": "completed",
+    "E_clean_slab": -1260.842150250306,
+    "E_slab_with_h": -1264.3744567706276,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.2534627162587202,
+    "adsorption_site": "top_3",
+    "h_position": [
+      35.209,
+      11.34956,
+      13.87136
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 105.9,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "edge_Mo",
+    "timestamp": "2026-05-05T17:35:26.247304",
+    "status": "completed",
+    "E_clean_slab": -521.0253115093892,
+    "E_slab_with_h": -524.5576175668432,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.25346225339117323,
+    "adsorption_site": "top_1",
+    "h_position": [
+      21.013000000000005,
+      11.34956,
+      13.87136
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 39.22,
+    "error": null
+  },
+  {
+    "formula": "Mo2C",
+    "surface": "edge_Mo_large",
+    "timestamp": "2026-05-05T17:36:05.464981",
+    "status": "completed",
+    "E_clean_slab": -1310.5450055822057,
+    "E_slab_with_h": -1314.0773121024788,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.2534627162102896,
+    "adsorption_site": "top_1",
+    "h_position": [
+      30.477,
+      11.34956,
+      13.87136
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 129.97,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(100)",
+    "timestamp": "2026-05-05T17:38:15.433186",
+    "status": "completed",
+    "E_clean_slab": -354.51193836656944,
+    "E_slab_with_h": -358.4092663810241,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6184842103918657,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      24.06
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 14.18,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(100)_dopAg",
+    "timestamp": "2026-05-05T17:38:29.609353",
+    "status": "completed",
+    "E_clean_slab": -346.715259671019,
+    "E_slab_with_h": -351.0535236470258,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.0594201719440224,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      24.06
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 14.61,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(100)_dopAu",
+    "timestamp": "2026-05-05T17:38:44.214915",
+    "status": "completed",
+    "E_clean_slab": -347.1569910926121,
+    "E_slab_with_h": -351.3841476350416,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.9483127383666914,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      24.06
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 15.44,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(100)_dopIr",
+    "timestamp": "2026-05-05T17:38:59.659718",
+    "status": "completed",
+    "E_clean_slab": -351.39310555253536,
+    "E_slab_with_h": -355.7873264655767,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.1153771089785454,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      24.06
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 22.05,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(100)_dopNi",
+    "timestamp": "2026-05-05T17:39:21.714146",
+    "status": "completed",
+    "E_clean_slab": -349.7721068415861,
+    "E_slab_with_h": -354.0089101192068,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.9579594735579025,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      24.06
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 13.67,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(100)_dopPd",
+    "timestamp": "2026-05-05T17:39:35.382453",
+    "status": "completed",
+    "E_clean_slab": -349.1230387215777,
+    "E_slab_with_h": -353.328496862408,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.9266143367674675,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      24.06
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 13.76,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(100)_dopPt",
+    "timestamp": "2026-05-05T17:39:49.145593",
+    "status": "completed",
+    "E_clean_slab": -349.8149906982275,
+    "E_slab_with_h": -353.877526580372,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.783692078081653,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      24.06
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 17.87,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(100)_dopRu",
+    "timestamp": "2026-05-05T17:40:07.018727",
+    "status": "completed",
+    "E_clean_slab": -351.4431329904069,
+    "E_slab_with_h": -356.18462669403687,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.4626498995671358,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.08,
+      2.08,
+      24.06
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 17.66,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(100)_vac2Mo",
+    "timestamp": "2026-05-05T17:40:24.683103",
+    "status": "completed",
+    "E_clean_slab": -331.2282422060777,
+    "E_slab_with_h": -336.3975981321619,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.890512122021359,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.08,
+      4.16,
+      24.06
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 34.13,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(100)_vac2N",
+    "timestamp": "2026-05-05T17:40:58.815173",
+    "status": "completed",
+    "E_clean_slab": -334.2818651946433,
+    "E_slab_with_h": -338.18501007630283,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6243010775967508,
+    "adsorption_site": "top_1",
+    "h_position": [
+      6.24,
+      4.16,
+      24.06
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 13.26,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(100)_vacMo",
+    "timestamp": "2026-05-05T17:41:12.079500",
+    "status": "completed",
+    "E_clean_slab": -342.83727288530633,
+    "E_slab_with_h": -347.950547465002,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.8344307756328493,
+    "adsorption_site": "top_3",
+    "h_position": [
+      2.08,
+      4.16,
+      24.06
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 18.15,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(100)_vacN",
+    "timestamp": "2026-05-05T17:41:30.226890",
+    "status": "completed",
+    "E_clean_slab": -344.807872882785,
+    "E_slab_with_h": -348.7063660888332,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6196494019854089,
+    "adsorption_site": "top_4",
+    "h_position": [
+      6.24,
+      0.0,
+      24.06
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 16.65,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(110)",
+    "timestamp": "2026-05-05T17:41:46.873984",
+    "status": "completed",
+    "E_clean_slab": -354.0863836535377,
+    "E_slab_with_h": -357.8967502315479,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5315227739473829,
+    "adsorption_site": "top_3",
+    "h_position": [
+      5.8831284194720785,
+      4.16,
+      18.324692629208116
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 15.11,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(110)_dopAg",
+    "timestamp": "2026-05-05T17:42:01.981226",
+    "status": "completed",
+    "E_clean_slab": -346.08659885443353,
+    "E_slab_with_h": -350.2826581118041,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.9172154533077577,
+    "adsorption_site": "top_3",
+    "h_position": [
+      5.8831284194720785,
+      4.16,
+      18.324692629208116
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 37.94,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(110)_dopAu",
+    "timestamp": "2026-05-05T17:42:39.921645",
+    "status": "completed",
+    "E_clean_slab": -346.53869293351084,
+    "E_slab_with_h": -350.67623734567337,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.8587006080997202,
+    "adsorption_site": "top_3",
+    "h_position": [
+      5.8831284194720785,
+      4.16,
+      18.324692629208116
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 39.17,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(110)_dopIr",
+    "timestamp": "2026-05-05T17:43:19.088404",
+    "status": "completed",
+    "E_clean_slab": -351.00094897477925,
+    "E_slab_with_h": -355.2531904850936,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.9733977062515708,
+    "adsorption_site": "top_3",
+    "h_position": [
+      5.8831284194720785,
+      4.16,
+      18.324692629208116
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 44.13,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(110)_dopNi",
+    "timestamp": "2026-05-05T17:44:03.215186",
+    "status": "completed",
+    "E_clean_slab": -349.3595234728199,
+    "E_slab_with_h": -353.4807653542165,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.8423980773337933,
+    "adsorption_site": "top_3",
+    "h_position": [
+      5.8831284194720785,
+      4.16,
+      18.324692629208116
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 39.23,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(110)_dopPd",
+    "timestamp": "2026-05-05T17:44:42.444405",
+    "status": "completed",
+    "E_clean_slab": -348.6734786402192,
+    "E_slab_with_h": -352.8012479335046,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.848925489222633,
+    "adsorption_site": "top_3",
+    "h_position": [
+      5.8831284194720785,
+      4.16,
+      18.324692629208116
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 34.85,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(110)_dopPt",
+    "timestamp": "2026-05-05T17:45:17.298415",
+    "status": "completed",
+    "E_clean_slab": -349.44547136627125,
+    "E_slab_with_h": -353.4288217701428,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.7045065998087483,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.941564209736038,
+      4.16,
+      18.324692629208116
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 35.42,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(110)_dopRu",
+    "timestamp": "2026-05-05T17:45:52.720016",
+    "status": "completed",
+    "E_clean_slab": -351.18975212235193,
+    "E_slab_with_h": -355.74688037825376,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.2782844518390237,
+    "adsorption_site": "top_2",
+    "h_position": [
+      5.8831284194720785,
+      2.08,
+      18.324692629208116
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 41.43,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(110)_vac2Mo",
+    "timestamp": "2026-05-05T17:46:34.148757",
+    "status": "completed",
+    "E_clean_slab": -335.34433542826616,
+    "E_slab_with_h": -340.48980986233215,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.8666306300031823,
+    "adsorption_site": "top_1",
+    "h_position": [
+      5.8831284194720785,
+      4.16,
+      18.324692629208116
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 40.6,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(110)_vac2N",
+    "timestamp": "2026-05-05T17:47:14.752338",
+    "status": "completed",
+    "E_clean_slab": -333.64995999657,
+    "E_slab_with_h": -337.458232571327,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5294287706942344,
+    "adsorption_site": "top_5",
+    "h_position": [
+      2.6e-15,
+      4.16,
+      18.324692629208116
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 13.79,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(110)_vacMo",
+    "timestamp": "2026-05-05T17:47:28.547305",
+    "status": "completed",
+    "E_clean_slab": -342.33687202664424,
+    "E_slab_with_h": -347.3630786887937,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.7473628580866278,
+    "adsorption_site": "top_2",
+    "h_position": [
+      5.8831284194720785,
+      4.16,
+      18.324692629208116
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 45.32,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(110)_vacN",
+    "timestamp": "2026-05-05T17:48:13.869951",
+    "status": "completed",
+    "E_clean_slab": -344.3151978380291,
+    "E_slab_with_h": -348.1285840640668,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5345424219748582,
+    "adsorption_site": "top_6",
+    "h_position": [
+      2.6e-15,
+      4.16,
+      18.324692629208116
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 16.62,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(111)",
+    "timestamp": "2026-05-05T17:48:30.486908",
+    "status": "completed",
+    "E_clean_slab": -342.6230892428462,
+    "E_slab_with_h": -346.06546197822274,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.1635289313137167,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      7.3539105243400975,
+      4.245782220824174,
+      17.906219919400954
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 12.55,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(111)_dopAg",
+    "timestamp": "2026-05-05T17:48:43.040358",
+    "status": "completed",
+    "E_clean_slab": -336.03741398454696,
+    "E_slab_with_h": -339.9141137080802,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5978559194704434,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      7.3539105243400975,
+      4.245782220824174,
+      17.906219919400954
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 28.86,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(111)_dopAu",
+    "timestamp": "2026-05-05T17:49:11.899590",
+    "status": "completed",
+    "E_clean_slab": -336.67931573522594,
+    "E_slab_with_h": -340.5393372412803,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5811777019915456,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      7.3539105243400975,
+      4.245782220824174,
+      17.906219919400954
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 22.31,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(111)_dopIr",
+    "timestamp": "2026-05-05T17:49:34.210745",
+    "status": "completed",
+    "E_clean_slab": -339.60978142758756,
+    "E_slab_with_h": -344.5231154866158,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.6344902549654097,
+    "adsorption_site": "top_2",
+    "h_position": [
+      5.8831284194720785,
+      6.7932515533186795,
+      17.906219919400954
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 23.9,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(111)_dopNi",
+    "timestamp": "2026-05-05T17:49:58.107279",
+    "status": "completed",
+    "E_clean_slab": -337.8793019161616,
+    "E_slab_with_h": -342.18921114408266,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.031065423858276,
+    "adsorption_site": "top_2",
+    "h_position": [
+      5.8831284194720785,
+      6.7932515533186795,
+      17.906219919400954
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 23.82,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(111)_dopPd",
+    "timestamp": "2026-05-05T17:50:21.929985",
+    "status": "completed",
+    "E_clean_slab": -337.8623353587229,
+    "E_slab_with_h": -341.8640038430985,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.7228246803128076,
+    "adsorption_site": "top_2",
+    "h_position": [
+      5.8831284194720785,
+      6.7932515533186795,
+      17.906219919400954
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 24.3,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(111)_dopPt",
+    "timestamp": "2026-05-05T17:50:46.226408",
+    "status": "completed",
+    "E_clean_slab": -338.4991028794567,
+    "E_slab_with_h": -342.73618616551386,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.9582394819943505,
+    "adsorption_site": "top_2",
+    "h_position": [
+      5.8831284194720785,
+      6.7932515533186795,
+      17.906219919400954
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 23.94,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(111)_dopRu",
+    "timestamp": "2026-05-05T17:51:10.165903",
+    "status": "completed",
+    "E_clean_slab": -339.91008155628094,
+    "E_slab_with_h": -344.58620733333703,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.3972819729932797,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      7.3539105243400975,
+      4.245782220824174,
+      17.906219919400954
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 23.36,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(111)_vac2Mo",
+    "timestamp": "2026-05-05T17:51:33.525068",
+    "status": "completed",
+    "E_clean_slab": -324.7049029742315,
+    "E_slab_with_h": -327.94837534159456,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.03537143669976617,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.9415642097360406,
+      1.6983128883296688,
+      17.906219919400954
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 8.13,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(111)_vac2N",
+    "timestamp": "2026-05-05T17:51:41.658898",
+    "status": "completed",
+    "E_clean_slab": -342.6230892428462,
+    "E_slab_with_h": -346.06546197822274,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.1635289313137167,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      7.3539105243400975,
+      4.245782220824174,
+      17.906219919400954
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 12.51,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(111)_vacMo",
+    "timestamp": "2026-05-05T17:51:54.173599",
+    "status": "completed",
+    "E_clean_slab": -333.67005750765736,
+    "E_slab_with_h": -337.67264757750945,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.7237462657892837,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      5.883128419472078,
+      1.6983128883296688,
+      17.906219919400954
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 31.6,
+    "error": null
+  },
+  {
+    "formula": "Mo2N",
+    "surface": "(111)_vacN",
+    "timestamp": "2026-05-05T17:52:25.774031",
+    "status": "completed",
+    "E_clean_slab": -342.6230892428462,
+    "E_slab_with_h": -346.06546197822274,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.1635289313137167,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      7.3539105243400975,
+      4.245782220824174,
+      17.906219919400954
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 12.7,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)",
+    "timestamp": "2026-05-05T17:52:38.469635",
+    "status": "completed",
+    "E_clean_slab": 8298.117882978653,
+    "E_slab_with_h": 8288.362238643102,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -6.476800531488745,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.11,
+      15.288899999999996,
+      20.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 220.86,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)_dopAg",
+    "timestamp": "2026-05-05T17:56:19.331606",
+    "status": "completed",
+    "E_clean_slab": 8217.399779418854,
+    "E_slab_with_h": 8206.295157580222,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -7.825778034569932,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.11,
+      15.288899999999996,
+      20.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 138.46,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)_dopAu",
+    "timestamp": "2026-05-05T17:58:37.793553",
+    "status": "completed",
+    "E_clean_slab": 8191.202747223399,
+    "E_slab_with_h": 8176.620563419086,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -11.303340000250184,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.11,
+      18.6111,
+      20.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 164.75,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)_dopIr",
+    "timestamp": "2026-05-05T18:01:22.543751",
+    "status": "completed",
+    "E_clean_slab": 8158.5741760557885,
+    "E_slab_with_h": -5059.003039609648,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -13214.298371861374,
+    "adsorption_site": "top_1",
+    "h_position": [
+      3.11,
+      16.051649999999995,
+      20.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 210.93,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)_dopNi",
+    "timestamp": "2026-05-05T18:04:53.469370",
+    "status": "completed",
+    "E_clean_slab": 8191.305155313115,
+    "E_slab_with_h": 8177.011040385136,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -11.01527112391673,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.11,
+      15.288899999999996,
+      20.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 157.88,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)_dopPd",
+    "timestamp": "2026-05-05T18:07:31.347074",
+    "status": "completed",
+    "E_clean_slab": 8183.866991100716,
+    "E_slab_with_h": 8172.299530238346,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -8.288617058307548,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.11,
+      15.288899999999996,
+      20.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 198.88,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)_dopPt",
+    "timestamp": "2026-05-05T18:10:50.225023",
+    "status": "completed",
+    "E_clean_slab": 8208.974641662204,
+    "E_slab_with_h": 8193.859660762675,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -11.83613709546594,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.11,
+      15.288899999999996,
+      20.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 174.42,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)_dopRu",
+    "timestamp": "2026-05-05T18:13:44.644068",
+    "status": "completed",
+    "E_clean_slab": 8214.940307990833,
+    "E_slab_with_h": 8209.821689834973,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.839774351797725,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.11,
+      17.84835,
+      20.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 160.14,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)_sheet",
+    "timestamp": "2026-05-05T18:16:24.787918",
+    "status": "completed",
+    "E_clean_slab": 33192.47153191465,
+    "E_slab_with_h": 33182.676687413994,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -6.5160006965922115,
+    "adsorption_site": "top_4",
+    "h_position": [
+      6.22,
+      35.561099999999996,
+      22.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 448.47,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)_vac2B",
+    "timestamp": "2026-05-05T18:23:53.257346",
+    "status": "completed",
+    "E_clean_slab": 7988.409961253159,
+    "E_slab_with_h": 7981.625624229483,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -3.5054932196132103,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.11,
+      17.84835,
+      20.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 88.73,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)_vac2Mo",
+    "timestamp": "2026-05-05T18:25:21.992006",
+    "status": "completed",
+    "E_clean_slab": 8037.003518325678,
+    "E_slab_with_h": 8030.423694009611,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -3.3009805120042546,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.11,
+      18.6111,
+      20.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 98.6,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)_vacB",
+    "timestamp": "2026-05-05T18:27:00.592589",
+    "status": "completed",
+    "E_clean_slab": 8141.9085932286835,
+    "E_slab_with_h": 8126.3952971023455,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -12.234452322275185,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.11,
+      18.6111,
+      20.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 146.98,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(100)_vacMo",
+    "timestamp": "2026-05-05T18:29:27.577313",
+    "status": "completed",
+    "E_clean_slab": 8108.992686871294,
+    "E_slab_with_h": 8100.827236593477,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -4.886606473753684,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.11,
+      18.6111,
+      20.384999999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 132.44,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)",
+    "timestamp": "2026-05-05T18:31:40.018013",
+    "status": "completed",
+    "E_clean_slab": 8210.710835799953,
+    "E_slab_with_h": 8205.616190860572,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.81580113531859,
+    "adsorption_site": "top_1",
+    "h_position": [
+      3.2986531342352423,
+      16.051649999999995,
+      17.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 204.31,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)_dopAg",
+    "timestamp": "2026-05-05T18:35:04.331784",
+    "status": "completed",
+    "E_clean_slab": 8096.765253821761,
+    "E_slab_with_h": 8089.022790805837,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -4.4636192118611255,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.2986531342352423,
+      18.6111,
+      17.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 166.42,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)_dopAu",
+    "timestamp": "2026-05-05T18:37:50.755933",
+    "status": "completed",
+    "E_clean_slab": 8108.63229728031,
+    "E_slab_with_h": 8096.0848734387655,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.268580037481708,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.2986531342352423,
+      18.6111,
+      17.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 206.69,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)_dopIr",
+    "timestamp": "2026-05-05T18:41:17.444568",
+    "status": "completed",
+    "E_clean_slab": 8044.514188714678,
+    "E_slab_with_h": 8024.9487934998115,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -16.286551410804034,
+    "adsorption_site": "top_5",
+    "h_position": [
+      5.497755223725405,
+      14.373599999999994,
+      17.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 187.82,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)_dopNi",
+    "timestamp": "2026-05-05T18:44:25.264967",
+    "status": "completed",
+    "E_clean_slab": 8073.218627978709,
+    "E_slab_with_h": 8047.448918539443,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -22.490865635203274,
+    "adsorption_site": "top_1",
+    "h_position": [
+      3.2986531342352423,
+      16.051649999999995,
+      17.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 167.09,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)_dopPd",
+    "timestamp": "2026-05-05T18:47:12.355012",
+    "status": "completed",
+    "E_clean_slab": 8076.849076862292,
+    "E_slab_with_h": 8068.200214998655,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -5.370018059574843,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.2986531342352423,
+      15.288899999999996,
+      17.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 189.93,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)_dopPt",
+    "timestamp": "2026-05-05T18:50:22.287660",
+    "status": "completed",
+    "E_clean_slab": 8111.427505985385,
+    "E_slab_with_h": 8100.027172999631,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -8.12148918169137,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.2986531342352423,
+      15.288899999999996,
+      17.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 172.57,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)_dopRu",
+    "timestamp": "2026-05-05T18:53:14.853198",
+    "status": "completed",
+    "E_clean_slab": 8120.604661443165,
+    "E_slab_with_h": 8111.3146791705185,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -6.011138468583933,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.2986531342352423,
+      17.84835,
+      17.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 181.37,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)_sheet",
+    "timestamp": "2026-05-05T18:56:16.224939",
+    "status": "completed",
+    "E_clean_slab": 32842.84334319946,
+    "E_slab_with_h": 32837.7500872845,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.8144121109031874,
+    "adsorption_site": "top_2",
+    "h_position": [
+      7.696857313215568,
+      34.79835,
+      19.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 666.97,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)_vac2B",
+    "timestamp": "2026-05-05T19:07:23.197050",
+    "status": "completed",
+    "E_clean_slab": 7844.040594488739,
+    "E_slab_with_h": 7835.761938732222,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -4.999811952454049,
+    "adsorption_site": "top_1",
+    "h_position": [
+      3.2986531342352423,
+      17.84835,
+      17.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 184.2,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)_vac2Mo",
+    "timestamp": "2026-05-05T19:10:27.399661",
+    "status": "completed",
+    "E_clean_slab": 7883.294815137989,
+    "E_slab_with_h": 7876.626453228075,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -3.389518105851177,
+    "adsorption_site": "top_1",
+    "h_position": [
+      3.2986531342352423,
+      15.288899999999996,
+      17.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 154.16,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)_vacB",
+    "timestamp": "2026-05-05T19:13:01.557480",
+    "status": "completed",
+    "E_clean_slab": 8037.0741439174435,
+    "E_slab_with_h": 8018.923867597915,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -14.871432515465724,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.2986531342352423,
+      18.6111,
+      17.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 161.41,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(110)_vacMo",
+    "timestamp": "2026-05-05T19:15:42.965765",
+    "status": "completed",
+    "E_clean_slab": 7990.86399176862,
+    "E_slab_with_h": 7982.526605255152,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -5.058542709404403,
+    "adsorption_site": "top_1",
+    "h_position": [
+      3.2986531342352423,
+      17.84835,
+      17.196857313215574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 155.57,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)",
+    "timestamp": "2026-05-05T19:18:18.538243",
+    "status": "completed",
+    "E_clean_slab": 8192.373805542698,
+    "E_slab_with_h": 8187.751217479678,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.343744258957169,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.199102089490162,
+      21.535222815638303,
+      17.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 172.52,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)_dopAg",
+    "timestamp": "2026-05-05T19:21:11.055813",
+    "status": "completed",
+    "E_clean_slab": 8204.973960163783,
+    "E_slab_with_h": 8199.993306501476,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.701809858244498,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.199102089490162,
+      21.535222815638303,
+      17.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 187.75,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)_dopAu",
+    "timestamp": "2026-05-05T19:24:18.804528",
+    "status": "completed",
+    "E_clean_slab": 8215.206151505183,
+    "E_slab_with_h": 8209.254073170403,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.6732345307169925,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.199102089490162,
+      21.535222815638303,
+      17.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 199.5,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)_dopIr",
+    "timestamp": "2026-05-05T19:27:38.309395",
+    "status": "completed",
+    "E_clean_slab": 8209.940252550561,
+    "E_slab_with_h": 8201.352807225881,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -5.308601520616914,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.199102089490162,
+      21.535222815638303,
+      17.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 215.54,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)_dopNi",
+    "timestamp": "2026-05-05T19:31:13.847259",
+    "status": "completed",
+    "E_clean_slab": 8194.588319900551,
+    "E_slab_with_h": 8189.107977924317,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2014981721710245,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.199102089490162,
+      21.535222815638303,
+      17.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 166.07,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)_dopPd",
+    "timestamp": "2026-05-05T19:33:59.917318",
+    "status": "completed",
+    "E_clean_slab": 8207.161328377906,
+    "E_slab_with_h": 8196.88479261241,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -6.997691961432476,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.199102089490162,
+      21.535222815638303,
+      17.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 236.25,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)_dopPt",
+    "timestamp": "2026-05-05T19:37:56.164622",
+    "status": "completed",
+    "E_clean_slab": 8209.337344081458,
+    "E_slab_with_h": 8203.295357357234,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.763142920160728,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.199102089490162,
+      21.535222815638303,
+      17.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 186.72,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)_dopRu",
+    "timestamp": "2026-05-05T19:41:02.886416",
+    "status": "completed",
+    "E_clean_slab": 8193.395246457523,
+    "E_slab_with_h": 8187.416448335882,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.699954317578569,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.199102089490162,
+      21.535222815638303,
+      17.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 178.11,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)_sheet",
+    "timestamp": "2026-05-05T19:44:00.992713",
+    "status": "completed",
+    "E_clean_slab": 32769.49522217105,
+    "E_slab_with_h": 32764.872403870737,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.343974496248531,
+    "adsorption_site": "top_2",
+    "h_position": [
+      4.398204178980325,
+      38.62728383823005,
+      19.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 544.47,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)_vac2B",
+    "timestamp": "2026-05-05T19:53:05.467319",
+    "status": "completed",
+    "E_clean_slab": 7991.342520962147,
+    "E_slab_with_h": 7986.38259599586,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.6810811622241562,
+    "adsorption_site": "top_2",
+    "h_position": [
+      -1.0995510447450836,
+      15.52736938214821,
+      17.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 182.54,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)_vac2Mo",
+    "timestamp": "2026-05-05T19:56:08.008119",
+    "status": "completed",
+    "E_clean_slab": 8196.177859780113,
+    "E_slab_with_h": 8189.943839925409,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.9551760506416502,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.298653134235242,
+      15.52736938214821,
+      17.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 196.23,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)_vacB",
+    "timestamp": "2026-05-05T19:59:24.234523",
+    "status": "completed",
+    "E_clean_slab": 8012.328292934044,
+    "E_slab_with_h": 8006.795205102085,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2542440278963585,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.298653134235242,
+      15.52736938214821,
+      17.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 153.94,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "(111)_vacMo",
+    "timestamp": "2026-05-05T20:01:58.177776",
+    "status": "completed",
+    "E_clean_slab": 8194.179563825988,
+    "E_slab_with_h": 8188.023675526523,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.8770444954021985,
+    "adsorption_site": "top_5",
+    "h_position": [
+      2.19910208949016,
+      24.073399893444083,
+      17.364052088599976
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 181.42,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "edge_B_large",
+    "timestamp": "2026-05-05T20:04:59.593002",
+    "status": "completed",
+    "E_clean_slab": 9820.219002292562,
+    "E_slab_with_h": 9819.324649365815,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 2.384490877315646,
+    "adsorption_site": "top_2",
+    "h_position": [
+      18.885,
+      3.11,
+      24.653299999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 129.73,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "edge_Mo",
+    "timestamp": "2026-05-05T20:07:09.321876",
+    "status": "completed",
+    "E_clean_slab": 4255.119618237329,
+    "E_slab_with_h": 4254.226334014656,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 2.3855595813896326,
+    "adsorption_site": "top_2",
+    "h_position": [
+      15.775000000000002,
+      3.11,
+      24.653299999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 64.84,
+    "error": null
+  },
+  {
+    "formula": "MoB",
+    "surface": "edge_Mo_large",
+    "timestamp": "2026-05-05T20:08:14.164414",
+    "status": "completed",
+    "E_clean_slab": 10952.088123308113,
+    "E_slab_with_h": 10951.194480773636,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 2.3852012695864215,
+    "adsorption_site": "top_5",
+    "h_position": [
+      25.105000000000004,
+      0.0,
+      24.653299999999998
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 137.56,
+    "error": null
+  },
+  {
+    "formula": "MoP",
+    "surface": "(100)",
+    "timestamp": "2026-05-05T20:10:31.719971",
+    "status": "completed",
+    "E_clean_slab": -244.6783253311855,
+    "E_slab_with_h": -248.54529778231486,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5881286470665503,
+    "adsorption_site": "top_1",
+    "h_position": [
+      1.62,
+      1.62,
+      20.84
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 9.8,
+    "error": null
+  },
+  {
+    "formula": "MoP",
+    "surface": "(110)",
+    "timestamp": "2026-05-05T20:10:41.524154",
+    "status": "completed",
+    "E_clean_slab": -243.88248282221008,
+    "E_slab_with_h": -247.6906919559341,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.529365329661228,
+    "adsorption_site": "top_1",
+    "h_position": [
+      6.8730779131332405,
+      3.24,
+      16.373077913133244
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 7.67,
+    "error": null
+  },
+  {
+    "formula": "MoP",
+    "surface": "(111)",
+    "timestamp": "2026-05-05T20:10:49.192546",
+    "status": "completed",
+    "E_clean_slab": -237.4403988311134,
+    "E_slab_with_h": -241.1990836367975,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.4798410016212773,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      5.7275649276110325,
+      3.3068111527572905,
+      16.047152052610357
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 10.5,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "(100)_sheet",
+    "timestamp": "2026-05-05T20:10:59.694133",
+    "status": "completed",
+    "E_clean_slab": -1258.597676936728,
+    "E_slab_with_h": -1262.6509006462516,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.7743799054607297,
+    "adsorption_site": "top_1",
+    "h_position": [
+      4.739999999999999,
+      16.967100000000002,
+      21.534347678515694
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 111.81,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "(100)_vac2S",
+    "timestamp": "2026-05-05T20:12:51.500156",
+    "status": "completed",
+    "E_clean_slab": -306.1643653261009,
+    "E_slab_with_h": -310.626449275467,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.1832401453032975,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.1599999999999993,
+      4.6721,
+      19.534347678515694
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 15.0,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "(100)_vacS",
+    "timestamp": "2026-05-05T20:13:06.498344",
+    "status": "completed",
+    "E_clean_slab": -310.1719891276466,
+    "E_slab_with_h": -314.6340730770127,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.1832401453032975,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.1599999999999993,
+      4.6721,
+      19.534347678515694
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 26.29,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "(110)",
+    "timestamp": "2026-05-05T20:13:32.785534",
+    "status": "completed",
+    "E_clean_slab": -307.9114665820676,
+    "E_slab_with_h": -311.45127670400825,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.26096631787785496,
+    "adsorption_site": "top_5",
+    "h_position": [
+      2.736640275958826,
+      6.1475,
+      14.240000000000002
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 23.76,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "(110)_sheet",
+    "timestamp": "2026-05-05T20:13:56.541732",
+    "status": "completed",
+    "E_clean_slab": -1231.6458663282704,
+    "E_slab_with_h": -1235.1856792937049,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.2609691613717149,
+    "adsorption_site": "top_5",
+    "h_position": [
+      8.209920827876477,
+      18.4425,
+      16.240000000000002
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 87.3,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "(110)_vac2S",
+    "timestamp": "2026-05-05T20:15:23.842442",
+    "status": "completed",
+    "E_clean_slab": -296.86437424953175,
+    "E_slab_with_h": -300.5837068951941,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.4404888415995418,
+    "adsorption_site": "top_6",
+    "h_position": [
+      8.209920827876477,
+      6.1475,
+      14.240000000000002
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 39.14,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "(110)_vacS",
+    "timestamp": "2026-05-05T20:16:02.983034",
+    "status": "completed",
+    "E_clean_slab": -302.38792041579967,
+    "E_slab_with_h": -305.9432699442291,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.2765057243666109,
+    "adsorption_site": "top_6",
+    "h_position": [
+      2.736640275958826,
+      6.1475,
+      14.240000000000002
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 20.58,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "(111)",
+    "timestamp": "2026-05-05T20:16:23.566082",
+    "status": "completed",
+    "E_clean_slab": -307.91146658206753,
+    "E_slab_with_h": -311.4484012366042,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.25809085047384484,
+    "adsorption_site": "top_1",
+    "h_position": [
+      -5e-16,
+      6.9029030390624015,
+      14.577446730745297
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 19.54,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "(111)_sheet",
+    "timestamp": "2026-05-05T20:16:43.107306",
+    "status": "completed",
+    "E_clean_slab": -1231.6458663282701,
+    "E_slab_with_h": -1235.1828039715424,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.25809383920946116,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.736640275958825,
+      19.299008274175563,
+      16.577446730745297
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 79.66,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "(111)_vac2S",
+    "timestamp": "2026-05-05T20:18:02.772153",
+    "status": "completed",
+    "E_clean_slab": -296.8643742495317,
+    "E_slab_with_h": -300.42254233106615,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.2793242774716549,
+    "adsorption_site": "top_5",
+    "h_position": [
+      2.736640275958825,
+      19.299008274175563,
+      14.577446730745297
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 32.64,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "(111)_vacS",
+    "timestamp": "2026-05-05T20:18:35.413758",
+    "status": "completed",
+    "E_clean_slab": -302.3879204157996,
+    "E_slab_with_h": -305.9403485343844,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.27358431452196497,
+    "adsorption_site": "top_1",
+    "h_position": [
+      -5e-16,
+      6.9029030390624015,
+      14.577446730745297
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 22.2,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "edge_Mo_large",
+    "timestamp": "2026-05-05T20:18:57.611891",
+    "status": "completed",
+    "E_clean_slab": -597.1206295252343,
+    "E_slab_with_h": -600.1140709013222,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.28540242797496207,
+    "adsorption_site": "top_4",
+    "h_position": [
+      21.877604307034012,
+      7.297707402556869,
+      12.450800000000001
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 11.34,
+    "error": null
+  },
+  {
+    "formula": "MoS2",
+    "surface": "edge_S_large",
+    "timestamp": "2026-05-05T20:19:08.954633",
+    "status": "completed",
+    "E_clean_slab": -597.1314694578512,
+    "E_slab_with_h": -600.1249189670388,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.2853942948752075,
+    "adsorption_site": "top_4",
+    "h_position": [
+      21.877604307034012,
+      7.297707402556869,
+      12.450800000000001
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 11.47,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "(100)",
+    "timestamp": "2026-05-05T20:19:20.428257",
+    "status": "completed",
+    "E_clean_slab": -288.4079354186214,
+    "E_slab_with_h": -292.13569626584496,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.4489170431607721,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.289,
+      17.9331,
+      19.943977694505737
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 24.07,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "(100)_sheet",
+    "timestamp": "2026-05-05T20:19:44.500677",
+    "status": "completed",
+    "E_clean_slab": -1153.6317416744876,
+    "E_slab_with_h": -1157.086794149092,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.17620867054156575,
+    "adsorption_site": "top_1",
+    "h_position": [
+      4.9335,
+      17.9331,
+      21.94397769450574
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 124.73,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "(100)_vac2Se",
+    "timestamp": "2026-05-05T20:21:49.234540",
+    "status": "completed",
+    "E_clean_slab": -280.69203694097934,
+    "E_slab_with_h": -284.4197977882029,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.4489170431607721,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.289,
+      4.9381,
+      19.943977694505737
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 14.74,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "(100)_vacSe",
+    "timestamp": "2026-05-05T20:22:03.976388",
+    "status": "completed",
+    "E_clean_slab": -284.1710989799011,
+    "E_slab_with_h": -287.9951504406594,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.545207656695506,
+    "adsorption_site": "top_3",
+    "h_position": [
+      4.9335,
+      17.9331,
+      19.943977694505737
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 27.83,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "(110)",
+    "timestamp": "2026-05-05T20:22:31.802307",
+    "status": "completed",
+    "E_clean_slab": -281.8508907045081,
+    "E_slab_with_h": -285.2721154531212,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.14238094455029282,
+    "adsorption_site": "top_5",
+    "h_position": [
+      2.848357553047019,
+      6.497500000000001,
+      14.433500000000002
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 34.0,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "(110)_sheet",
+    "timestamp": "2026-05-05T20:23:05.799222",
+    "status": "completed",
+    "E_clean_slab": -1127.4035628180345,
+    "E_slab_with_h": -1130.824787263543,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.14238064144560836,
+    "adsorption_site": "top_5",
+    "h_position": [
+      8.545072659141056,
+      19.4925,
+      16.433500000000002
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 133.48,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "(110)_vac2Se",
+    "timestamp": "2026-05-05T20:25:19.279514",
+    "status": "completed",
+    "E_clean_slab": -271.80026760926785,
+    "E_slab_with_h": -275.2279116236246,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.14880021029395207,
+    "adsorption_site": "top_3",
+    "h_position": [
+      2.848357553047019,
+      6.497500000000001,
+      14.433500000000002
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 22.56,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "(110)_vacSe",
+    "timestamp": "2026-05-05T20:25:41.835916",
+    "status": "completed",
+    "E_clean_slab": -276.825579156888,
+    "E_slab_with_h": -280.25322317124477,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.14880021029395207,
+    "adsorption_site": "top_6",
+    "h_position": [
+      8.545072659141056,
+      19.4925,
+      14.433500000000002
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 27.75,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "(111)",
+    "timestamp": "2026-05-05T20:26:09.584668",
+    "status": "completed",
+    "E_clean_slab": -281.8508907045081,
+    "E_slab_with_h": -285.27077829579326,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.14104378722234,
+    "adsorption_site": "top_1",
+    "h_position": [
+      1.5e-15,
+      7.271939962730764,
+      14.786021446272017
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 20.57,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "(111)_sheet",
+    "timestamp": "2026-05-05T20:26:30.153574",
+    "status": "completed",
+    "E_clean_slab": -1127.4035628180347,
+    "E_slab_with_h": -1130.8234500765504,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.14104345445289423,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.84835755304702,
+      20.370581314031284,
+      16.786021446272017
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 89.33,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "(111)_vac2Se",
+    "timestamp": "2026-05-05T20:27:59.484855",
+    "status": "completed",
+    "E_clean_slab": -271.80026760926785,
+    "E_slab_with_h": -275.2369567427421,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.15784532941145413,
+    "adsorption_site": "top_2",
+    "h_position": [
+      5.6967151060940395,
+      7.271939962730764,
+      14.786021446272017
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 28.1,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "(111)_vacSe",
+    "timestamp": "2026-05-05T20:28:27.589447",
+    "status": "completed",
+    "E_clean_slab": -276.82557915688795,
+    "E_slab_with_h": -280.2622682903623,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.15784532941151097,
+    "adsorption_site": "top_3",
+    "h_position": [
+      5.6967151060940395,
+      7.271939962730764,
+      14.786021446272017
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 28.15,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "edge_Mo",
+    "timestamp": "2026-05-05T20:28:55.735016",
+    "status": "completed",
+    "E_clean_slab": -209.25198738910956,
+    "E_slab_with_h": -211.84766854180052,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.6831626513718487,
+    "adsorption_site": "top_4",
+    "h_position": [
+      14.171104307034014,
+      4.747262588411698,
+      12.6188
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 7.88,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "edge_Mo_large",
+    "timestamp": "2026-05-05T20:29:03.613772",
+    "status": "completed",
+    "E_clean_slab": -547.2802264648882,
+    "E_slab_with_h": -549.8750464841996,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.6840237847513646,
+    "adsorption_site": "top_3",
+    "h_position": [
+      22.39360430703401,
+      1.8989050353646793,
+      12.6188
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 15.66,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "edge_Se",
+    "timestamp": "2026-05-05T20:29:19.271938",
+    "status": "completed",
+    "E_clean_slab": -209.74005521261464,
+    "E_slab_with_h": -212.33482833481634,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.6840706818611051,
+    "adsorption_site": "top_4",
+    "h_position": [
+      19.104604307034016,
+      1.8989050353646793,
+      12.6188
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 8.12,
+    "error": null
+  },
+  {
+    "formula": "MoSe2",
+    "surface": "edge_Se_large",
+    "timestamp": "2026-05-05T20:29:27.394130",
+    "status": "completed",
+    "E_clean_slab": -547.8064046099607,
+    "E_slab_with_h": -550.4012912838826,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.6839571301409006,
+    "adsorption_site": "top_6",
+    "h_position": [
+      19.104604307034013,
+      1.8989050353646793,
+      12.6188
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 17.74,
+    "error": null
+  },
+  {
+    "formula": "Ni2",
+    "surface": "on_graphene",
+    "timestamp": "2026-05-05T20:29:45.134608",
+    "status": "completed",
+    "E_clean_slab": -296.6012453854363,
+    "E_slab_with_h": -301.7842786515793,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.9041894620802071,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.845,
+      3.905774571067818,
+      13.3
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 20.94,
+    "error": null
+  },
+  {
+    "formula": "Ni2",
+    "surface": "on_graphene_N_doped",
+    "timestamp": "2026-05-05T20:30:06.078330",
+    "status": "completed",
+    "E_clean_slab": -295.91703577906264,
+    "E_slab_with_h": -300.78441487491483,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.58853529178938,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.045,
+      3.905774571067818,
+      13.3
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 17.09,
+    "error": null
+  },
+  {
+    "formula": "Ni4",
+    "surface": "on_graphene",
+    "timestamp": "2026-05-05T20:30:23.171003",
+    "status": "completed",
+    "E_clean_slab": -301.1657762650115,
+    "E_slab_with_h": -306.06537734033276,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.6207572712584368,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.045,
+      2.705774571067818,
+      13.3
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 44.39,
+    "error": null
+  },
+  {
+    "formula": "Ni4",
+    "surface": "on_graphene_N_doped",
+    "timestamp": "2026-05-05T20:31:07.557227",
+    "status": "completed",
+    "E_clean_slab": -299.5615218716461,
+    "E_slab_with_h": -304.4178533687509,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.577487693041998,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.045,
+      5.105774571067818,
+      13.3
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 19.65,
+    "error": null
+  },
+  {
+    "formula": "Ni4",
+    "surface": "on_nanoribbon",
+    "timestamp": "2026-05-05T20:31:27.207722",
+    "status": "completed",
+    "E_clean_slab": -323.86397953119024,
+    "E_slab_with_h": -328.8342064125777,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.691383077324669,
+    "adsorption_site": "top_1",
+    "h_position": [
+      12.957604307034014,
+      1.6405633244129592,
+      11.3
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 40.41,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)",
+    "timestamp": "2026-05-05T20:32:07.622351",
+    "status": "completed",
+    "E_clean_slab": 1330.7791633132797,
+    "E_slab_with_h": 1318.4041881930525,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.096131316164385,
+    "adsorption_site": "top_6",
+    "h_position": [
+      11.34956,
+      4.787680000000001,
+      25.261000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 70.2,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_cluster2Ag",
+    "timestamp": "2026-05-05T20:33:17.823694",
+    "status": "completed",
+    "E_clean_slab": 1334.1958714990083,
+    "E_slab_with_h": 1327.8419777127813,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -3.075049982164184,
+    "adsorption_site": "top_1",
+    "h_position": [
+      3.583115644523203,
+      4.307115644523203,
+      27.061000000000003
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 41.19,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_cluster2Au",
+    "timestamp": "2026-05-05T20:33:59.010049",
+    "status": "completed",
+    "E_clean_slab": 1369.055152807404,
+    "E_slab_with_h": 1362.9360302648909,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.84027873845039,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      4.783115644523203,
+      4.307115644523203,
+      27.061000000000003
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 27.73,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_cluster2Ir",
+    "timestamp": "2026-05-05T20:34:26.740851",
+    "status": "completed",
+    "E_clean_slab": 1330.8665639878536,
+    "E_slab_with_h": 1325.882296813349,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.70542337044176,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      4.783115644523203,
+      4.307115644523203,
+      27.061000000000003
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 49.51,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_cluster2Pd",
+    "timestamp": "2026-05-05T20:35:16.249455",
+    "status": "completed",
+    "E_clean_slab": 1347.5929819052903,
+    "E_slab_with_h": 1341.3687942582753,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.9453438429522083,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      4.783115644523203,
+      4.307115644523203,
+      27.061000000000003
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 34.26,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_cluster2Pt",
+    "timestamp": "2026-05-05T20:35:50.505318",
+    "status": "completed",
+    "E_clean_slab": 1349.261079171052,
+    "E_slab_with_h": 1344.0468571165345,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.9353782504546433,
+    "adsorption_site": "top_1",
+    "h_position": [
+      3.583115644523203,
+      4.307115644523203,
+      27.061000000000003
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 31.38,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_cluster4Ag",
+    "timestamp": "2026-05-05T20:36:21.890282",
+    "status": "completed",
+    "E_clean_slab": 1339.6918659891076,
+    "E_slab_with_h": 1332.5087479223914,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -3.904274262653327,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.583115644523203,
+      5.5071156445232035,
+      27.061000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 93.49,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_cluster4Au",
+    "timestamp": "2026-05-05T20:37:55.382583",
+    "status": "completed",
+    "E_clean_slab": 1411.4778005656467,
+    "E_slab_with_h": 1404.82859598782,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -3.3703607737637884,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.583115644523203,
+      5.5071156445232035,
+      27.061000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 93.18,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_cluster4Ir",
+    "timestamp": "2026-05-05T20:39:28.567645",
+    "status": "completed",
+    "E_clean_slab": 1336.3202321255003,
+    "E_slab_with_h": 1327.4835576752926,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -5.557830646144932,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.583115644523203,
+      5.5071156445232035,
+      27.061000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 88.28,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_cluster4Pd",
+    "timestamp": "2026-05-05T20:40:56.844853",
+    "status": "completed",
+    "E_clean_slab": 1370.0461704194463,
+    "E_slab_with_h": 1363.3762664497115,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -3.3910601656720263,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      4.783115644523203,
+      4.307115644523203,
+      27.061000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 97.26,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_cluster4Pt",
+    "timestamp": "2026-05-05T20:42:34.106513",
+    "status": "completed",
+    "E_clean_slab": 1378.8603162402,
+    "E_slab_with_h": 1372.2779949000337,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -3.303477536103539,
+    "adsorption_site": "top_4",
+    "h_position": [
+      5.983115644523203,
+      5.5071156445232035,
+      27.061000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 105.59,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_dopAg",
+    "timestamp": "2026-05-05T20:44:19.700573",
+    "status": "completed",
+    "E_clean_slab": 1330.7791633132797,
+    "E_slab_with_h": 1318.4041881930525,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.096131316164385,
+    "adsorption_site": "top_6",
+    "h_position": [
+      11.34956,
+      4.787680000000001,
+      25.261000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 72.79,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_dopAu",
+    "timestamp": "2026-05-05T20:45:32.492498",
+    "status": "completed",
+    "E_clean_slab": 1330.7791633132797,
+    "E_slab_with_h": 1318.4041881930525,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.096131316164385,
+    "adsorption_site": "top_6",
+    "h_position": [
+      11.34956,
+      4.787680000000001,
+      25.261000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 70.33,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_dopIr",
+    "timestamp": "2026-05-05T20:46:42.826875",
+    "status": "completed",
+    "E_clean_slab": 1330.7791633132797,
+    "E_slab_with_h": 1318.4041881930525,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.096131316164385,
+    "adsorption_site": "top_6",
+    "h_position": [
+      11.34956,
+      4.787680000000001,
+      25.261000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 68.49,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_dopNi",
+    "timestamp": "2026-05-05T20:47:51.314285",
+    "status": "completed",
+    "E_clean_slab": 1330.7791633132797,
+    "E_slab_with_h": 1318.4041881930525,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.096131316164385,
+    "adsorption_site": "top_6",
+    "h_position": [
+      11.34956,
+      4.787680000000001,
+      25.261000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 70.35,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_dopPd",
+    "timestamp": "2026-05-05T20:49:01.664011",
+    "status": "completed",
+    "E_clean_slab": 1330.7791633132797,
+    "E_slab_with_h": 1318.4041881930525,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.096131316164385,
+    "adsorption_site": "top_6",
+    "h_position": [
+      11.34956,
+      4.787680000000001,
+      25.261000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 71.89,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_dopPt",
+    "timestamp": "2026-05-05T20:50:13.551709",
+    "status": "completed",
+    "E_clean_slab": 1330.7791633132797,
+    "E_slab_with_h": 1318.4041881930525,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.096131316164385,
+    "adsorption_site": "top_6",
+    "h_position": [
+      11.34956,
+      4.787680000000001,
+      25.261000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 71.53,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(100)_dopRu",
+    "timestamp": "2026-05-05T20:51:25.080549",
+    "status": "completed",
+    "E_clean_slab": 1330.7791633132797,
+    "E_slab_with_h": 1318.4041881930525,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.096131316164385,
+    "adsorption_site": "top_6",
+    "h_position": [
+      11.34956,
+      4.787680000000001,
+      25.261000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 69.83,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)",
+    "timestamp": "2026-05-05T20:52:34.913549",
+    "status": "completed",
+    "E_clean_slab": 4626085440.073259,
+    "E_slab_with_h": 4511852126.000077,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -114233310.7943383,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      11.179786913098283,
+      4.636206682361089,
+      22.642570008375436
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 67.18,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_cluster2Ag",
+    "timestamp": "2026-05-05T20:53:42.097609",
+    "status": "completed",
+    "E_clean_slab": 4626543624.891831,
+    "E_slab_with_h": 4626441646.082515,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -101975.53047283107,
+    "adsorption_site": "top_2",
+    "h_position": [
+      6.259148735669851,
+      5.052285823406483,
+      24.442570008375437
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 54.7,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_cluster2Au",
+    "timestamp": "2026-05-05T20:54:36.802094",
+    "status": "completed",
+    "E_clean_slab": 4619704847.627962,
+    "E_slab_with_h": 4618961001.707855,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -743842.6412630838,
+    "adsorption_site": "top_1",
+    "h_position": [
+      8.65914873566985,
+      5.052285823406483,
+      24.442570008375437
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 68.03,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_cluster2Ir",
+    "timestamp": "2026-05-05T20:55:44.831863",
+    "status": "completed",
+    "E_clean_slab": 4626706011.004716,
+    "E_slab_with_h": 4626599903.759741,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -106103.96613128597,
+    "adsorption_site": "top_2",
+    "h_position": [
+      6.259148735669851,
+      5.052285823406483,
+      24.442570008375437
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 46.21,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_cluster2Pd",
+    "timestamp": "2026-05-05T20:56:31.046263",
+    "status": "completed",
+    "E_clean_slab": 4620414880.300325,
+    "E_slab_with_h": 4620118975.032155,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -295901.98932655266,
+    "adsorption_site": "top_2",
+    "h_position": [
+      6.259148735669851,
+      5.052285823406483,
+      24.442570008375437
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 70.32,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_cluster2Pt",
+    "timestamp": "2026-05-05T20:57:41.362443",
+    "status": "completed",
+    "E_clean_slab": 4616307082.468863,
+    "E_slab_with_h": 4616306559.813837,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -519.3761816781149,
+    "adsorption_site": "top_2",
+    "h_position": [
+      6.259148735669851,
+      5.052285823406483,
+      24.442570008375437
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 72.28,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_cluster4Ag",
+    "timestamp": "2026-05-05T20:58:53.642300",
+    "status": "completed",
+    "E_clean_slab": 4630410586.160225,
+    "E_slab_with_h": 4629712674.231568,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -697908.649812774,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      7.459148735669851,
+      5.052285823406483,
+      24.442570008375437
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 128.94,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_cluster4Au",
+    "timestamp": "2026-05-05T21:01:02.577886",
+    "status": "completed",
+    "E_clean_slab": 4625923453.716944,
+    "E_slab_with_h": 4625337304.559616,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -586145.878483848,
+    "adsorption_site": "top_4",
+    "h_position": [
+      6.259148735669851,
+      6.252285823406483,
+      24.442570008375437
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 124.72,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_cluster4Ir",
+    "timestamp": "2026-05-05T21:03:07.302649",
+    "status": "completed",
+    "E_clean_slab": 4639962231.742044,
+    "E_slab_with_h": 4613790899.977392,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -26171328.485808447,
+    "adsorption_site": "top_3",
+    "h_position": [
+      6.259148735669851,
+      3.8522858234064827,
+      24.442570008375437
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 119.35,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_cluster4Pd",
+    "timestamp": "2026-05-05T21:05:06.649582",
+    "status": "completed",
+    "E_clean_slab": 4625854816.872569,
+    "E_slab_with_h": 4623324405.203653,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2530408.3900719443,
+    "adsorption_site": "top_2",
+    "h_position": [
+      8.65914873566985,
+      6.252285823406483,
+      24.442570008375437
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 136.73,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_cluster4Pt",
+    "timestamp": "2026-05-05T21:07:23.378609",
+    "status": "completed",
+    "E_clean_slab": 4623244405.789798,
+    "E_slab_with_h": 4622559853.827331,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -684548.6836233896,
+    "adsorption_site": "top_3",
+    "h_position": [
+      6.259148735669851,
+      3.8522858234064827,
+      24.442570008375437
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 141.94,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_dopAg",
+    "timestamp": "2026-05-05T21:09:45.315957",
+    "status": "completed",
+    "E_clean_slab": 4626085440.073259,
+    "E_slab_with_h": 4511852126.000077,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -114233310.7943383,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      11.179786913098283,
+      4.636206682361089,
+      22.642570008375436
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 69.09,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_dopAu",
+    "timestamp": "2026-05-05T21:10:54.410541",
+    "status": "completed",
+    "E_clean_slab": 4626085440.073259,
+    "E_slab_with_h": 4511852126.000077,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -114233310.7943383,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      11.179786913098283,
+      4.636206682361089,
+      22.642570008375436
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 66.07,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_dopIr",
+    "timestamp": "2026-05-05T21:12:00.480808",
+    "status": "completed",
+    "E_clean_slab": 4626085440.073259,
+    "E_slab_with_h": 4511852126.000077,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -114233310.7943383,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      11.179786913098283,
+      4.636206682361089,
+      22.642570008375436
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 68.53,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_dopNi",
+    "timestamp": "2026-05-05T21:13:09.009031",
+    "status": "completed",
+    "E_clean_slab": 4626085440.073259,
+    "E_slab_with_h": 4511852126.000077,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -114233310.7943383,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      11.179786913098283,
+      4.636206682361089,
+      22.642570008375436
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 68.99,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_dopPd",
+    "timestamp": "2026-05-05T21:14:17.997292",
+    "status": "completed",
+    "E_clean_slab": 4626085440.073259,
+    "E_slab_with_h": 4511852126.000077,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -114233310.7943383,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      11.179786913098283,
+      4.636206682361089,
+      22.642570008375436
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 68.83,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_dopPt",
+    "timestamp": "2026-05-05T21:15:26.828827",
+    "status": "completed",
+    "E_clean_slab": 4626085440.073259,
+    "E_slab_with_h": 4511852126.000077,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -114233310.7943383,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      11.179786913098283,
+      4.636206682361089,
+      22.642570008375436
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 65.67,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2C_interface_(111)_dopRu",
+    "timestamp": "2026-05-05T21:16:32.499685",
+    "status": "completed",
+    "E_clean_slab": 4626085440.073259,
+    "E_slab_with_h": 4511852126.000077,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -114233310.7943383,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      11.179786913098283,
+      4.636206682361089,
+      22.642570008375436
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 67.92,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)",
+    "timestamp": "2026-05-05T21:17:40.419199",
+    "status": "completed",
+    "E_clean_slab": -311.38524777906184,
+    "E_slab_with_h": -315.3497202594472,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6856286763225756,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      23.22
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 64.04,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster2Ag",
+    "timestamp": "2026-05-05T21:18:44.456875",
+    "status": "completed",
+    "E_clean_slab": -312.97725165094874,
+    "E_slab_with_h": -316.692051814087,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.4359563590754436,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.2534285689991527,
+      2.9760952356658197,
+      25.02
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 32.06,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster2Au",
+    "timestamp": "2026-05-05T21:19:16.517569",
+    "status": "completed",
+    "E_clean_slab": -313.32842824200134,
+    "E_slab_with_h": -317.40632463057614,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.7990525845119936,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.053428568999153,
+      2.9760952356658197,
+      25.02
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 35.26,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster2Ir",
+    "timestamp": "2026-05-05T21:19:51.779474",
+    "status": "completed",
+    "E_clean_slab": -323.8947102450402,
+    "E_slab_with_h": -328.76117886361624,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.5876248145132439,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.2534285689991527,
+      2.9760952356658197,
+      25.02
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 32.91,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster2Ni",
+    "timestamp": "2026-05-05T21:20:24.692326",
+    "status": "completed",
+    "E_clean_slab": -297.03812410575654,
+    "E_slab_with_h": -301.27763350890694,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.960665599087601,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.0001190445822736,
+      3.2001190445822747,
+      20.860000000000003
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 25.2,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster2Pd",
+    "timestamp": "2026-05-05T21:20:49.891551",
+    "status": "completed",
+    "E_clean_slab": -317.91150722610894,
+    "E_slab_with_h": -322.0704564780194,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.8801054478476789,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.2534285689991527,
+      2.9760952356658197,
+      25.02
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 39.13,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster2Pt",
+    "timestamp": "2026-05-05T21:21:29.017177",
+    "status": "completed",
+    "E_clean_slab": -318.83446013472235,
+    "E_slab_with_h": -323.1522640667891,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.0389601280039318,
+    "adsorption_site": "top_2",
+    "h_position": [
+      4.453428568999152,
+      2.9760952356658197,
+      25.02
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 22.83,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster2Ru",
+    "timestamp": "2026-05-05T21:21:51.846658",
+    "status": "completed",
+    "E_clean_slab": -303.26533620690464,
+    "E_slab_with_h": -308.1798267348944,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.6356467239269494,
+    "adsorption_site": "top_2",
+    "h_position": [
+      4.400119044582273,
+      3.2001190445822747,
+      20.860000000000003
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 23.1,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster4Ag",
+    "timestamp": "2026-05-05T21:22:14.947583",
+    "status": "completed",
+    "E_clean_slab": -311.611647246712,
+    "E_slab_with_h": -315.4252556808511,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.534764630076292,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      3.2534285689991527,
+      2.9760952356658197,
+      25.02
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 62.92,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster4Au",
+    "timestamp": "2026-05-05T21:23:17.868930",
+    "status": "completed",
+    "E_clean_slab": -310.0637712431289,
+    "E_slab_with_h": -314.84421377364805,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.5015987264563608,
+    "adsorption_site": "top_3",
+    "h_position": [
+      2.053428568999153,
+      1.7760952356658197,
+      25.02
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 66.05,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster4Ir",
+    "timestamp": "2026-05-05T21:24:23.922044",
+    "status": "completed",
+    "E_clean_slab": -332.5421967560938,
+    "E_slab_with_h": -337.5649124125908,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.7438718524341783,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.2534285689991527,
+      4.176095235665819,
+      25.02
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 55.1,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster4Ni",
+    "timestamp": "2026-05-05T21:25:19.019341",
+    "status": "completed",
+    "E_clean_slab": -304.83939902782953,
+    "E_slab_with_h": -309.80786806708215,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.6896252351898187,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.0001190445822736,
+      2.0001190445822745,
+      20.860000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 58.92,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster4Pd",
+    "timestamp": "2026-05-05T21:26:17.935063",
+    "status": "completed",
+    "E_clean_slab": -321.42704505278715,
+    "E_slab_with_h": -325.70836906234,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.002480205490055,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.2534285689991527,
+      4.176095235665819,
+      25.02
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 58.67,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster4Pt",
+    "timestamp": "2026-05-05T21:27:16.606015",
+    "status": "completed",
+    "E_clean_slab": -323.38019360251815,
+    "E_slab_with_h": -327.7648415495842,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.1058041430032648,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.053428568999153,
+      4.176095235665819,
+      25.02
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 62.22,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_cluster4Ru",
+    "timestamp": "2026-05-05T21:28:18.826551",
+    "status": "completed",
+    "E_clean_slab": -317.8573788302088,
+    "E_slab_with_h": -323.8572095861055,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.7209869518339036,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      3.200119044582273,
+      3.2001190445822747,
+      20.860000000000003
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 48.94,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_dopAg",
+    "timestamp": "2026-05-05T21:29:07.766770",
+    "status": "completed",
+    "E_clean_slab": -311.38524777906184,
+    "E_slab_with_h": -315.3497202594472,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6856286763225756,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      23.22
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 63.21,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_dopAu",
+    "timestamp": "2026-05-05T21:30:10.976133",
+    "status": "completed",
+    "E_clean_slab": -311.38524777906184,
+    "E_slab_with_h": -315.3497202594472,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6856286763225756,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      23.22
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 64.56,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_dopIr",
+    "timestamp": "2026-05-05T21:31:15.537724",
+    "status": "completed",
+    "E_clean_slab": -311.38524777906184,
+    "E_slab_with_h": -315.3497202594472,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6856286763225756,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      23.22
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 64.01,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_dopNi",
+    "timestamp": "2026-05-05T21:32:19.543273",
+    "status": "completed",
+    "E_clean_slab": -311.38524777906184,
+    "E_slab_with_h": -315.3497202594472,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6856286763225756,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      23.22
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 63.88,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_dopPd",
+    "timestamp": "2026-05-05T21:33:23.424214",
+    "status": "completed",
+    "E_clean_slab": -311.38524777906184,
+    "E_slab_with_h": -315.3497202594472,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6856286763225756,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      23.22
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 63.29,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_dopPt",
+    "timestamp": "2026-05-05T21:34:26.715765",
+    "status": "completed",
+    "E_clean_slab": -311.38524777906184,
+    "E_slab_with_h": -315.3497202594472,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6856286763225756,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      23.22
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 64.82,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(100)_dopRu",
+    "timestamp": "2026-05-05T21:35:31.531606",
+    "status": "completed",
+    "E_clean_slab": -311.38524777906184,
+    "E_slab_with_h": -315.3497202594472,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6856286763225756,
+    "adsorption_site": "top_2",
+    "h_position": [
+      2.08,
+      4.16,
+      23.22
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 64.66,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)",
+    "timestamp": "2026-05-05T21:36:36.191509",
+    "status": "completed",
+    "E_clean_slab": -34.97390862932906,
+    "E_slab_with_h": -47.5202319108015,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.267479477409633,
+    "adsorption_site": "top_3",
+    "h_position": [
+      14.707821048680188,
+      5.0949386649890105,
+      21.399484522385713
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 66.04,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster2Ag",
+    "timestamp": "2026-05-05T21:37:42.230852",
+    "status": "completed",
+    "E_clean_slab": -41.01268767780681,
+    "E_slab_with_h": -44.95717797346532,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6656464915957048,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      5.564458963417341,
+      3.201755259344588,
+      23.199484522385713
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 28.09,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster2Au",
+    "timestamp": "2026-05-05T21:38:10.318346",
+    "status": "completed",
+    "E_clean_slab": -43.440086855770005,
+    "E_slab_with_h": -46.23661733495521,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.4823133248775986,
+    "adsorption_site": "top_2",
+    "h_position": [
+      6.764458963417341,
+      3.201755259344588,
+      23.199484522385713
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 20.67,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster2Ir",
+    "timestamp": "2026-05-05T21:38:30.986268",
+    "status": "completed",
+    "E_clean_slab": -44.7216132877914,
+    "E_slab_with_h": -48.66893269603037,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.6684756041761619,
+    "adsorption_site": "top_2",
+    "h_position": [
+      6.764458963417341,
+      3.201755259344588,
+      23.199484522385713
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 28.02,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster2Ni",
+    "timestamp": "2026-05-05T21:38:59.004227",
+    "status": "completed",
+    "E_clean_slab": -299.3337596870115,
+    "E_slab_with_h": -303.3354168208062,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.7228133297319022,
+    "adsorption_site": "top_2",
+    "h_position": [
+      5.100154757956957,
+      2.8874957044627885,
+      21.67681884264245
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 24.77,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster2Pd",
+    "timestamp": "2026-05-05T21:39:23.770600",
+    "status": "completed",
+    "E_clean_slab": -45.785616274518304,
+    "E_slab_with_h": -49.44411883300103,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.37965875441991725,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      5.564458963417341,
+      3.201755259344588,
+      23.199484522385713
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 15.47,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster2Pt",
+    "timestamp": "2026-05-05T21:39:39.240662",
+    "status": "completed",
+    "E_clean_slab": -48.951008887594355,
+    "E_slab_with_h": -52.60876645700364,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.378913765346478,
+    "adsorption_site": "top_2",
+    "h_position": [
+      6.764458963417341,
+      3.201755259344588,
+      23.199484522385713
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 22.1,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster2Ru",
+    "timestamp": "2026-05-05T21:40:01.341541",
+    "status": "completed",
+    "E_clean_slab": -305.62480499849534,
+    "E_slab_with_h": -310.4029823469145,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.4993335443563427,
+    "adsorption_site": "top_2",
+    "h_position": [
+      5.100154757956957,
+      2.8874957044627885,
+      21.67681884264245
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 21.09,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster4Ag",
+    "timestamp": "2026-05-05T21:40:22.427914",
+    "status": "completed",
+    "E_clean_slab": -51.20897434691756,
+    "E_slab_with_h": -56.283728640982645,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.795910490002281,
+    "adsorption_site": "top_4",
+    "h_position": [
+      6.764458963417341,
+      4.401755259344588,
+      23.199484522385713
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 68.08,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster4Au",
+    "timestamp": "2026-05-05T21:41:30.504565",
+    "status": "completed",
+    "E_clean_slab": -62.98119028862601,
+    "E_slab_with_h": -66.57098210382236,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.3109480111335432,
+    "adsorption_site": "top_4",
+    "h_position": [
+      6.764458963417341,
+      4.401755259344588,
+      23.199484522385713
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 40.15,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster4Ir",
+    "timestamp": "2026-05-05T21:42:10.653810",
+    "status": "completed",
+    "E_clean_slab": -71.49088701775867,
+    "E_slab_with_h": -75.67310321381763,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.9033723919961534,
+    "adsorption_site": "top_4",
+    "h_position": [
+      6.764458963417341,
+      4.401755259344588,
+      23.199484522385713
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 68.79,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster4Ni",
+    "timestamp": "2026-05-05T21:43:19.442272",
+    "status": "completed",
+    "E_clean_slab": -308.7666720987313,
+    "E_slab_with_h": -313.6178472373033,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.5723313345091827,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      3.9001547579569573,
+      2.8874957044627885,
+      21.67681884264245
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 66.84,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster4Pd",
+    "timestamp": "2026-05-05T21:44:26.286687",
+    "status": "completed",
+    "E_clean_slab": -68.70482676959881,
+    "E_slab_with_h": -72.8278855804868,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.8442150068251766,
+    "adsorption_site": "top_1",
+    "h_position": [
+      4.3644589634173405,
+      2.0017552593445878,
+      23.199484522385713
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 67.66,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster4Pt",
+    "timestamp": "2026-05-05T21:45:33.947361",
+    "status": "completed",
+    "E_clean_slab": -80.00441572777515,
+    "E_slab_with_h": -83.6597769487318,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.3765174168938432,
+    "adsorption_site": "top_4",
+    "h_position": [
+      6.764458963417341,
+      4.401755259344588,
+      23.199484522385713
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 50.57,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_cluster4Ru",
+    "timestamp": "2026-05-05T21:46:24.519616",
+    "status": "completed",
+    "E_clean_slab": -321.9570100727098,
+    "E_slab_with_h": -327.9780473349205,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.7421934581479053,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      3.9001547579569573,
+      2.8874957044627885,
+      21.67681884264245
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 48.49,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_dopAg",
+    "timestamp": "2026-05-05T21:47:13.011840",
+    "status": "completed",
+    "E_clean_slab": -34.97390862932906,
+    "E_slab_with_h": -47.5202319108015,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.267479477409633,
+    "adsorption_site": "top_3",
+    "h_position": [
+      14.707821048680188,
+      5.0949386649890105,
+      21.399484522385713
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 65.71,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_dopAu",
+    "timestamp": "2026-05-05T21:48:18.722154",
+    "status": "completed",
+    "E_clean_slab": -34.97390862932906,
+    "E_slab_with_h": -47.5202319108015,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.267479477409633,
+    "adsorption_site": "top_3",
+    "h_position": [
+      14.707821048680188,
+      5.0949386649890105,
+      21.399484522385713
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 65.72,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_dopIr",
+    "timestamp": "2026-05-05T21:49:24.441892",
+    "status": "completed",
+    "E_clean_slab": -34.97390862932906,
+    "E_slab_with_h": -47.5202319108015,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.267479477409633,
+    "adsorption_site": "top_3",
+    "h_position": [
+      14.707821048680188,
+      5.0949386649890105,
+      21.399484522385713
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 65.98,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_dopNi",
+    "timestamp": "2026-05-05T21:50:30.419951",
+    "status": "completed",
+    "E_clean_slab": -34.97390862932906,
+    "E_slab_with_h": -47.5202319108015,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.267479477409633,
+    "adsorption_site": "top_3",
+    "h_position": [
+      14.707821048680188,
+      5.0949386649890105,
+      21.399484522385713
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 66.24,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_dopPd",
+    "timestamp": "2026-05-05T21:51:36.656922",
+    "status": "completed",
+    "E_clean_slab": -34.97390862932906,
+    "E_slab_with_h": -47.5202319108015,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.267479477409633,
+    "adsorption_site": "top_3",
+    "h_position": [
+      14.707821048680188,
+      5.0949386649890105,
+      21.399484522385713
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 65.54,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_dopPt",
+    "timestamp": "2026-05-05T21:52:42.194806",
+    "status": "completed",
+    "E_clean_slab": -34.97390862932906,
+    "E_slab_with_h": -47.5202319108015,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.267479477409633,
+    "adsorption_site": "top_3",
+    "h_position": [
+      14.707821048680188,
+      5.0949386649890105,
+      21.399484522385713
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 65.48,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Mo2N_interface_(111)_dopRu",
+    "timestamp": "2026-05-05T21:53:47.677908",
+    "status": "completed",
+    "E_clean_slab": -34.97390862932906,
+    "E_slab_with_h": -47.5202319108015,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -9.267479477409633,
+    "adsorption_site": "top_3",
+    "h_position": [
+      14.707821048680188,
+      5.0949386649890105,
+      21.399484522385713
+    ],
+    "n_sites_tried": 5,
+    "wall_seconds": 66.16,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)",
+    "timestamp": "2026-05-05T21:54:53.837494",
+    "status": "completed",
+    "E_clean_slab": 4030726234.743181,
+    "E_slab_with_h": 3752132105.898635,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -278594125.5657025,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.11,
+      18.6111,
+      21.645
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 277.57,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_cluster2Ag",
+    "timestamp": "2026-05-05T21:59:31.408106",
+    "status": "completed",
+    "E_clean_slab": 4042702600.956926,
+    "E_slab_with_h": 4042218946.579585,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -483651.0984969895,
+    "adsorption_site": "top_2",
+    "h_position": [
+      1.3034494764631102,
+      13.912229964267981,
+      23.445
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 110.94,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_cluster2Au",
+    "timestamp": "2026-05-05T22:01:22.343305",
+    "status": "completed",
+    "E_clean_slab": 4205469701.3251514,
+    "E_slab_with_h": 4204396481.800553,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1073216.2457547945,
+    "adsorption_site": "top_1",
+    "h_position": [
+      3.70344947646311,
+      13.912229964267981,
+      23.445
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 134.78,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_cluster2Ir",
+    "timestamp": "2026-05-05T22:03:37.123746",
+    "status": "completed",
+    "E_clean_slab": 4280176023.4984565,
+    "E_slab_with_h": 4279839358.0016394,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -336662.2179733079,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      2.50344947646311,
+      13.912229964267981,
+      23.445
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 115.74,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_cluster2Pd",
+    "timestamp": "2026-05-05T22:05:32.862076",
+    "status": "completed",
+    "E_clean_slab": 4207031941.451576,
+    "E_slab_with_h": 4205963320.769342,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1068617.4033904832,
+    "adsorption_site": "top_1",
+    "h_position": [
+      3.70344947646311,
+      13.912229964267981,
+      23.445
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 136.13,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_cluster2Pt",
+    "timestamp": "2026-05-05T22:07:48.989198",
+    "status": "completed",
+    "E_clean_slab": 4274498152.291257,
+    "E_slab_with_h": 4273357778.646427,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1140370.365985946,
+    "adsorption_site": "top_1",
+    "h_position": [
+      3.70344947646311,
+      13.912229964267981,
+      23.445
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 137.64,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_cluster4Ag",
+    "timestamp": "2026-05-05T22:10:06.627440",
+    "status": "completed",
+    "E_clean_slab": 3870781341.7831116,
+    "E_slab_with_h": 3869853538.662154,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -927799.8421135705,
+    "adsorption_site": "top_3",
+    "h_position": [
+      1.3034494764631102,
+      12.712229964267982,
+      23.445
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 239.96,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_cluster4Au",
+    "timestamp": "2026-05-05T22:14:06.585799",
+    "status": "completed",
+    "E_clean_slab": 4235831140.2793503,
+    "E_slab_with_h": 4234592718.4650707,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1238418.5354357522,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.70344947646311,
+      15.11222996426798,
+      23.445
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 344.65,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_cluster4Ir",
+    "timestamp": "2026-05-05T22:19:51.237199",
+    "status": "completed",
+    "E_clean_slab": 4194108642.8978367,
+    "E_slab_with_h": 4193393548.782344,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -715090.8366490167,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.70344947646311,
+      13.912229964267981,
+      23.445
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 288.6,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_cluster4Pd",
+    "timestamp": "2026-05-05T22:24:39.832371",
+    "status": "completed",
+    "E_clean_slab": 4171080041.3593454,
+    "E_slab_with_h": 4169873085.5871043,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1206952.4933973115,
+    "adsorption_site": "top_1",
+    "h_position": [
+      3.70344947646311,
+      12.712229964267982,
+      23.445
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 343.49,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_cluster4Pt",
+    "timestamp": "2026-05-05T22:30:23.323105",
+    "status": "completed",
+    "E_clean_slab": 4262795037.9133444,
+    "E_slab_with_h": 4261592950.479808,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1202084.1546927255,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.70344947646311,
+      13.912229964267981,
+      23.445
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 346.17,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_dopAg",
+    "timestamp": "2026-05-05T22:36:09.488630",
+    "status": "completed",
+    "E_clean_slab": 4030726234.743181,
+    "E_slab_with_h": 3752132105.898635,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -278594125.5657025,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.11,
+      18.6111,
+      21.645
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 277.23,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_dopAu",
+    "timestamp": "2026-05-05T22:40:46.721580",
+    "status": "completed",
+    "E_clean_slab": 4030726234.743181,
+    "E_slab_with_h": 3752132105.898635,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -278594125.5657025,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.11,
+      18.6111,
+      21.645
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 276.47,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_dopIr",
+    "timestamp": "2026-05-05T22:45:23.192295",
+    "status": "completed",
+    "E_clean_slab": 4030726234.743181,
+    "E_slab_with_h": 3752132105.898635,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -278594125.5657025,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.11,
+      18.6111,
+      21.645
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 274.92,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_dopNi",
+    "timestamp": "2026-05-05T22:49:58.108718",
+    "status": "completed",
+    "E_clean_slab": 4030726234.743181,
+    "E_slab_with_h": 3752132105.898635,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -278594125.5657025,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.11,
+      18.6111,
+      21.645
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 277.14,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_dopPd",
+    "timestamp": "2026-05-05T22:54:35.245660",
+    "status": "completed",
+    "E_clean_slab": 4030726234.743181,
+    "E_slab_with_h": 3752132105.898635,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -278594125.5657025,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.11,
+      18.6111,
+      21.645
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 273.92,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_dopPt",
+    "timestamp": "2026-05-05T22:59:09.167125",
+    "status": "completed",
+    "E_clean_slab": 4030726234.743181,
+    "E_slab_with_h": 3752132105.898635,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -278594125.5657025,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.11,
+      18.6111,
+      21.645
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 275.73,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(100)_dopRu",
+    "timestamp": "2026-05-05T23:03:44.899770",
+    "status": "completed",
+    "E_clean_slab": 4030726234.743181,
+    "E_slab_with_h": 3752132105.898635,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -278594125.5657025,
+    "adsorption_site": "top_4",
+    "h_position": [
+      3.11,
+      18.6111,
+      21.645
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 276.95,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)",
+    "timestamp": "2026-05-05T23:08:21.854595",
+    "status": "completed",
+    "E_clean_slab": 6604667080.8589,
+    "E_slab_with_h": 6197281200.765818,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -407385876.8142386,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.1991020894901627,
+      20.96934021159098,
+      21.29922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 404.05,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_cluster2Ag",
+    "timestamp": "2026-05-05T23:15:05.902563",
+    "status": "completed",
+    "E_clean_slab": 6663735502.716976,
+    "E_slab_with_h": 6476036033.5765295,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -187699465.86160287,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      2.6042225355894786,
+      14.152439581493814,
+      23.09922251826407
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 205.62,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_cluster2Au",
+    "timestamp": "2026-05-05T23:18:31.519880",
+    "status": "completed",
+    "E_clean_slab": 6614647415.115033,
+    "E_slab_with_h": 6422581889.921092,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -192065521.91509733,
+    "adsorption_site": "top_1",
+    "h_position": [
+      1.4042225355894786,
+      14.152439581493814,
+      23.09922251826407
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 185.4,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_cluster2Ir",
+    "timestamp": "2026-05-05T23:21:36.916120",
+    "status": "completed",
+    "E_clean_slab": 6772844808.029851,
+    "E_slab_with_h": 6554657118.030283,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -218187686.7207242,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.8042225355894788,
+      14.152439581493814,
+      23.09922251826407
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 198.71,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_cluster2Pd",
+    "timestamp": "2026-05-05T23:24:55.626004",
+    "status": "completed",
+    "E_clean_slab": 6667737222.5863,
+    "E_slab_with_h": 6532298557.666754,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -135438661.64070234,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.8042225355894788,
+      14.152439581493814,
+      23.09922251826407
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 207.31,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_cluster2Pt",
+    "timestamp": "2026-05-05T23:28:22.934419",
+    "status": "completed",
+    "E_clean_slab": 6715065465.204983,
+    "E_slab_with_h": 6491683225.048691,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -223382236.87744817,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      2.6042225355894786,
+      14.152439581493814,
+      23.09922251826407
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 167.18,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_cluster4Ag",
+    "timestamp": "2026-05-05T23:31:10.109725",
+    "status": "completed",
+    "E_clean_slab": 6752055167.762688,
+    "E_slab_with_h": 6548781401.045107,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -203273763.438737,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.8042225355894788,
+      12.952439581493815,
+      23.09922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 409.12,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_cluster4Au",
+    "timestamp": "2026-05-05T23:37:59.228877",
+    "status": "completed",
+    "E_clean_slab": 6650384118.938619,
+    "E_slab_with_h": 6463275903.496458,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -187108212.16331682,
+    "adsorption_site": "top_1",
+    "h_position": [
+      1.4042225355894786,
+      12.952439581493815,
+      23.09922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 375.52,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_cluster4Ir",
+    "timestamp": "2026-05-05T23:44:14.752452",
+    "status": "completed",
+    "E_clean_slab": 6875341293.401765,
+    "E_slab_with_h": 6568991692.842277,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -306349597.2806445,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.4042225355894786,
+      14.152439581493814,
+      23.09922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 430.46,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_cluster4Pd",
+    "timestamp": "2026-05-05T23:51:25.208444",
+    "status": "completed",
+    "E_clean_slab": 6715446292.860987,
+    "E_slab_with_h": 6505889046.077636,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -209557243.50450715,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.4042225355894786,
+      14.152439581493814,
+      23.09922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 422.82,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_cluster4Pt",
+    "timestamp": "2026-05-05T23:58:28.028313",
+    "status": "completed",
+    "E_clean_slab": 6799813927.38156,
+    "E_slab_with_h": 6512535370.900793,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -287278553.20192343,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.4042225355894786,
+      14.152439581493814,
+      23.09922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 337.79,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_dopAg",
+    "timestamp": "2026-05-06T00:04:05.813697",
+    "status": "completed",
+    "E_clean_slab": 6604667080.8589,
+    "E_slab_with_h": 6197281200.765818,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -407385876.8142386,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.1991020894901627,
+      20.96934021159098,
+      21.29922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 407.66,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_dopAu",
+    "timestamp": "2026-05-06T00:10:53.474053",
+    "status": "completed",
+    "E_clean_slab": 6604667080.8589,
+    "E_slab_with_h": 6197281200.765818,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -407385876.8142386,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.1991020894901627,
+      20.96934021159098,
+      21.29922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 393.18,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_dopIr",
+    "timestamp": "2026-05-06T00:17:26.658606",
+    "status": "completed",
+    "E_clean_slab": 6604667080.8589,
+    "E_slab_with_h": 6197281200.765818,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -407385876.8142386,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.1991020894901627,
+      20.96934021159098,
+      21.29922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 417.43,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_dopNi",
+    "timestamp": "2026-05-06T00:24:24.092216",
+    "status": "completed",
+    "E_clean_slab": 6604667080.8589,
+    "E_slab_with_h": 6197281200.765818,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -407385876.8142386,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.1991020894901627,
+      20.96934021159098,
+      21.29922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 403.72,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_dopPd",
+    "timestamp": "2026-05-06T00:31:07.812201",
+    "status": "completed",
+    "E_clean_slab": 6604667080.8589,
+    "E_slab_with_h": 6197281200.765818,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -407385876.8142386,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.1991020894901627,
+      20.96934021159098,
+      21.29922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 399.31,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_dopPt",
+    "timestamp": "2026-05-06T00:37:47.118145",
+    "status": "completed",
+    "E_clean_slab": 6604667080.8589,
+    "E_slab_with_h": 6197281200.765818,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -407385876.8142386,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.1991020894901627,
+      20.96934021159098,
+      21.29922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 404.21,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoB_interface_(111)_dopRu",
+    "timestamp": "2026-05-06T00:44:31.327431",
+    "status": "completed",
+    "E_clean_slab": 6604667080.8589,
+    "E_slab_with_h": 6197281200.765818,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -407385876.8142386,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.1991020894901627,
+      20.96934021159098,
+      21.29922251826407
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 396.12,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)",
+    "timestamp": "2026-05-06T00:51:07.443994",
+    "status": "completed",
+    "E_clean_slab": -315.20015567676,
+    "E_slab_with_h": -319.06945420802987,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5904547272070562,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.5799999999999994,
+      10.819600000000001,
+      21.541067126598044
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 67.47,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_cluster2Ag",
+    "timestamp": "2026-05-06T00:52:14.917611",
+    "status": "completed",
+    "E_clean_slab": -317.3629200329117,
+    "E_slab_with_h": -320.72782689457034,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.08606305759584698,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.236095235665819,
+      6.784761902332486,
+      23.341067126598045
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 36.03,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_cluster2Au",
+    "timestamp": "2026-05-06T00:52:50.950403",
+    "status": "completed",
+    "E_clean_slab": -312.58606790879134,
+    "E_slab_with_h": -317.1530674486485,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.2881557357943865,
+    "adsorption_site": "top_2",
+    "h_position": [
+      4.436095235665819,
+      6.784761902332486,
+      23.341067126598045
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 22.83,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_cluster2Ir",
+    "timestamp": "2026-05-06T00:53:13.777163",
+    "status": "completed",
+    "E_clean_slab": -321.8594836845502,
+    "E_slab_with_h": -327.1657357700153,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.027408281402326,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.036095235665819,
+      6.784761902332486,
+      23.341067126598045
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 30.12,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_cluster2Pd",
+    "timestamp": "2026-05-06T00:53:43.893916",
+    "status": "completed",
+    "E_clean_slab": -320.9471485361748,
+    "E_slab_with_h": -325.70027494484344,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.474282604605857,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.236095235665819,
+      6.784761902332486,
+      23.341067126598045
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 33.01,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_cluster2Pt",
+    "timestamp": "2026-05-06T00:54:16.903744",
+    "status": "completed",
+    "E_clean_slab": -322.2162665741052,
+    "E_slab_with_h": -326.82300819350417,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.327897815336168,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.236095235665819,
+      6.784761902332486,
+      23.341067126598045
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 27.44,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_cluster4Ag",
+    "timestamp": "2026-05-06T00:54:44.339699",
+    "status": "completed",
+    "E_clean_slab": -317.0516654586492,
+    "E_slab_with_h": -320.8426315898968,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5121223271848083,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      2.036095235665819,
+      6.784761902332486,
+      23.341067126598045
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 65.62,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_cluster4Au",
+    "timestamp": "2026-05-06T00:55:49.963213",
+    "status": "completed",
+    "E_clean_slab": -304.5141483912379,
+    "E_slab_with_h": -310.11664559133465,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.3236533960339574,
+    "adsorption_site": "top_1",
+    "h_position": [
+      2.036095235665819,
+      5.5847619023324855,
+      23.341067126598045
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 55.0,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_cluster4Ir",
+    "timestamp": "2026-05-06T00:56:44.962990",
+    "status": "completed",
+    "E_clean_slab": -336.0794181434775,
+    "E_slab_with_h": -341.12615296234145,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.7678910148011613,
+    "adsorption_site": "top_4",
+    "h_position": [
+      4.436095235665819,
+      7.984761902332486,
+      23.341067126598045
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 50.5,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_cluster4Pd",
+    "timestamp": "2026-05-06T00:57:35.463298",
+    "status": "completed",
+    "E_clean_slab": -327.75571059994894,
+    "E_slab_with_h": -332.40812880808903,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.3735744040772846,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      3.236095235665819,
+      6.784761902332486,
+      23.341067126598045
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 62.4,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_cluster4Pt",
+    "timestamp": "2026-05-06T00:58:37.860198",
+    "status": "completed",
+    "E_clean_slab": -330.68148230945707,
+    "E_slab_with_h": -335.07151661083464,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.111190497314762,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      2.036095235665819,
+      6.784761902332486,
+      23.341067126598045
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 54.07,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_dopAg",
+    "timestamp": "2026-05-06T00:59:31.930655",
+    "status": "completed",
+    "E_clean_slab": -315.20015567676,
+    "E_slab_with_h": -319.06945420802987,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5904547272070562,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.5799999999999994,
+      10.819600000000001,
+      21.541067126598044
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 67.01,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_dopAu",
+    "timestamp": "2026-05-06T01:00:38.942832",
+    "status": "completed",
+    "E_clean_slab": -315.20015567676,
+    "E_slab_with_h": -319.06945420802987,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5904547272070562,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.5799999999999994,
+      10.819600000000001,
+      21.541067126598044
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 66.77,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_dopIr",
+    "timestamp": "2026-05-06T01:01:45.715197",
+    "status": "completed",
+    "E_clean_slab": -315.20015567676,
+    "E_slab_with_h": -319.06945420802987,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5904547272070562,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.5799999999999994,
+      10.819600000000001,
+      21.541067126598044
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 67.39,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_dopNi",
+    "timestamp": "2026-05-06T01:02:53.107249",
+    "status": "completed",
+    "E_clean_slab": -315.20015567676,
+    "E_slab_with_h": -319.06945420802987,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5904547272070562,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.5799999999999994,
+      10.819600000000001,
+      21.541067126598044
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 67.74,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_dopPd",
+    "timestamp": "2026-05-06T01:04:00.848755",
+    "status": "completed",
+    "E_clean_slab": -315.20015567676,
+    "E_slab_with_h": -319.06945420802987,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5904547272070562,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.5799999999999994,
+      10.819600000000001,
+      21.541067126598044
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 68.12,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_dopPt",
+    "timestamp": "2026-05-06T01:05:08.968643",
+    "status": "completed",
+    "E_clean_slab": -315.20015567676,
+    "E_slab_with_h": -319.06945420802987,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5904547272070562,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.5799999999999994,
+      10.819600000000001,
+      21.541067126598044
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 66.74,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(100)_dopRu",
+    "timestamp": "2026-05-06T01:06:15.710487",
+    "status": "completed",
+    "E_clean_slab": -315.20015567676,
+    "E_slab_with_h": -319.06945420802987,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -0.5904547272070562,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.5799999999999994,
+      10.819600000000001,
+      21.541067126598044
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 67.01,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)",
+    "timestamp": "2026-05-06T01:07:22.723378",
+    "status": "completed",
+    "E_clean_slab": 13505.513130731782,
+    "E_slab_with_h": 11154.29493164621,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2347.9393552815086,
+    "adsorption_site": "top_2",
+    "h_position": [
+      -7e-16,
+      6.5001313696305045,
+      19.740039196384476
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 69.52,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_cluster2Ag",
+    "timestamp": "2026-05-06T01:08:32.242176",
+    "status": "completed",
+    "E_clean_slab": 13376.549867235957,
+    "E_slab_with_h": 11408.513773484463,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1964.7572499474315,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.5214465834157602,
+      6.655659658168543,
+      21.540039196384477
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 45.07,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_cluster2Au",
+    "timestamp": "2026-05-06T01:09:17.311465",
+    "status": "completed",
+    "E_clean_slab": 12949.424064861403,
+    "E_slab_with_h": 10898.409132366098,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2047.7360886912427,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.5214465834157602,
+      6.655659658168543,
+      21.540039196384477
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 26.04,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_cluster2Ir",
+    "timestamp": "2026-05-06T01:09:43.350286",
+    "status": "completed",
+    "E_clean_slab": 12301.853085939852,
+    "E_slab_with_h": 10048.199545251337,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2250.374696884453,
+    "adsorption_site": "top_2",
+    "h_position": [
+      4.72144658341576,
+      6.655659658168543,
+      21.540039196384477
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 37.6,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_cluster2Pd",
+    "timestamp": "2026-05-06T01:10:20.951216",
+    "status": "completed",
+    "E_clean_slab": 12575.384370455007,
+    "E_slab_with_h": 12574.17225644679,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 2.0667297958446835,
+    "adsorption_site": "top_2",
+    "h_position": [
+      4.72144658341576,
+      6.655659658168543,
+      21.540039196384477
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 45.21,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_cluster2Pt",
+    "timestamp": "2026-05-06T01:11:06.166129",
+    "status": "completed",
+    "E_clean_slab": 12533.052409425782,
+    "E_slab_with_h": 10320.559530225333,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2209.2140353963855,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      3.5214465834157602,
+      6.655659658168543,
+      21.540039196384477
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 32.48,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_cluster4Ag",
+    "timestamp": "2026-05-06T01:11:38.644611",
+    "status": "completed",
+    "E_clean_slab": 14357.655900241412,
+    "E_slab_with_h": 12673.794167559716,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1680.5828888776339,
+    "adsorption_site": "top_3",
+    "h_position": [
+      2.32144658341576,
+      7.855659658168543,
+      21.540039196384477
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 89.31,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_cluster4Au",
+    "timestamp": "2026-05-06T01:13:07.953527",
+    "status": "completed",
+    "E_clean_slab": 14147.754507014553,
+    "E_slab_with_h": 11584.124481921985,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2560.351181288506,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      3.5214465834157602,
+      6.655659658168542,
+      21.540039196384477
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 85.45,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_cluster4Ir",
+    "timestamp": "2026-05-06T01:14:33.407655",
+    "status": "completed",
+    "E_clean_slab": 13219.808492942419,
+    "E_slab_with_h": 11940.853886033066,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1275.6757631052894,
+    "adsorption_site": "top_3",
+    "h_position": [
+      2.32144658341576,
+      7.855659658168543,
+      21.540039196384477
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 87.34,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_cluster4Pd",
+    "timestamp": "2026-05-06T01:16:00.745153",
+    "status": "completed",
+    "E_clean_slab": 13701.031889274054,
+    "E_slab_with_h": 11961.185809033284,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1736.5672364367072,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      3.5214465834157602,
+      6.655659658168542,
+      21.540039196384477
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 92.66,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_cluster4Pt",
+    "timestamp": "2026-05-06T01:17:33.405668",
+    "status": "completed",
+    "E_clean_slab": 13750.963331312312,
+    "E_slab_with_h": 12157.276905846764,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1590.4075816614857,
+    "adsorption_site": "top_4",
+    "h_position": [
+      4.72144658341576,
+      7.855659658168543,
+      21.540039196384477
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 92.98,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_dopAg",
+    "timestamp": "2026-05-06T01:19:06.384301",
+    "status": "completed",
+    "E_clean_slab": 13505.513130731782,
+    "E_slab_with_h": 11154.29493164621,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2347.9393552815086,
+    "adsorption_site": "top_2",
+    "h_position": [
+      -7e-16,
+      6.5001313696305045,
+      19.740039196384476
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 69.57,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_dopAu",
+    "timestamp": "2026-05-06T01:20:15.950632",
+    "status": "completed",
+    "E_clean_slab": 13505.513130731782,
+    "E_slab_with_h": 11154.29493164621,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2347.9393552815086,
+    "adsorption_site": "top_2",
+    "h_position": [
+      -7e-16,
+      6.5001313696305045,
+      19.740039196384476
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 68.95,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_dopIr",
+    "timestamp": "2026-05-06T01:21:24.903082",
+    "status": "completed",
+    "E_clean_slab": 13505.513130731782,
+    "E_slab_with_h": 11154.29493164621,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2347.9393552815086,
+    "adsorption_site": "top_2",
+    "h_position": [
+      -7e-16,
+      6.5001313696305045,
+      19.740039196384476
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 69.64,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_dopNi",
+    "timestamp": "2026-05-06T01:22:34.540022",
+    "status": "completed",
+    "E_clean_slab": 13505.513130731782,
+    "E_slab_with_h": 11154.29493164621,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2347.9393552815086,
+    "adsorption_site": "top_2",
+    "h_position": [
+      -7e-16,
+      6.5001313696305045,
+      19.740039196384476
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 69.87,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_dopPd",
+    "timestamp": "2026-05-06T01:23:44.407069",
+    "status": "completed",
+    "E_clean_slab": 13505.513130731782,
+    "E_slab_with_h": 11154.29493164621,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2347.9393552815086,
+    "adsorption_site": "top_2",
+    "h_position": [
+      -7e-16,
+      6.5001313696305045,
+      19.740039196384476
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 69.03,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_dopPt",
+    "timestamp": "2026-05-06T01:24:53.434912",
+    "status": "completed",
+    "E_clean_slab": 13505.513130731782,
+    "E_slab_with_h": 11154.29493164621,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2347.9393552815086,
+    "adsorption_site": "top_2",
+    "h_position": [
+      -7e-16,
+      6.5001313696305045,
+      19.740039196384476
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 70.11,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "MoS2_interface_(111)_dopRu",
+    "timestamp": "2026-05-06T01:26:03.547280",
+    "status": "completed",
+    "E_clean_slab": 13505.513130731782,
+    "E_slab_with_h": 11154.29493164621,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2347.9393552815086,
+    "adsorption_site": "top_2",
+    "h_position": [
+      -7e-16,
+      6.5001313696305045,
+      19.740039196384476
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 68.92,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(100)",
+    "timestamp": "2026-05-06T01:27:12.471854",
+    "status": "completed",
+    "E_clean_slab": -15.651109181547554,
+    "E_slab_with_h": -16.863076010615487,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 2.0668769749948734,
+    "adsorption_site": "top_2",
+    "h_position": [
+      -1.5355,
+      4.432606691703352,
+      22.98
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 118.79,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(100)_cluster2Ag",
+    "timestamp": "2026-05-06T01:29:11.263663",
+    "status": "completed",
+    "E_clean_slab": 34.00722310154674,
+    "E_slab_with_h": 32.58384848827325,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 1.8554691907893113,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      2.3876890317166586,
+      3.4685634691602423,
+      24.78
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 48.6,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(100)_cluster2Au",
+    "timestamp": "2026-05-06T01:29:59.864199",
+    "status": "completed",
+    "E_clean_slab": 29.954756397956203,
+    "E_slab_with_h": 28.42775503628377,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 1.7518424423903736,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      2.3876890317166586,
+      3.4685634691602423,
+      24.78
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 45.58,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(100)_cluster2Ir",
+    "timestamp": "2026-05-06T01:30:45.443256",
+    "status": "completed",
+    "E_clean_slab": 52.11545107651216,
+    "E_slab_with_h": 49.42747549374076,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.5908682212914056,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.5876890317166588,
+      3.4685634691602423,
+      24.78
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 43.16,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(100)_cluster2Pd",
+    "timestamp": "2026-05-06T01:31:28.607505",
+    "status": "completed",
+    "E_clean_slab": 22.484956262074775,
+    "E_slab_with_h": 20.039937157372492,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.8338246993605236,
+    "adsorption_site": "top_1",
+    "h_position": [
+      1.1876890317166586,
+      3.4685634691602423,
+      24.78
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 34.83,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(100)_cluster2Pt",
+    "timestamp": "2026-05-06T01:32:03.435300",
+    "status": "completed",
+    "E_clean_slab": 46.200021784527394,
+    "E_slab_with_h": 43.93076700579047,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 1.0095890253258841,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      2.3876890317166586,
+      3.4685634691602423,
+      24.78
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 36.94,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(100)_cluster4Ag",
+    "timestamp": "2026-05-06T01:32:40.376920",
+    "status": "completed",
+    "E_clean_slab": 87.88285431255349,
+    "E_slab_with_h": 86.36465566404388,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 1.760645155553196,
+    "adsorption_site": "bridge_center",
+    "h_position": [
+      1.1876890317166586,
+      3.4685634691602423,
+      24.78
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 103.44,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(100)_cluster4Au",
+    "timestamp": "2026-05-06T01:34:23.821317",
+    "status": "completed",
+    "E_clean_slab": 83.39917605398307,
+    "E_slab_with_h": 82.18041074931318,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 2.0600784993929193,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      2.3876890317166586,
+      3.4685634691602423,
+      24.78
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 64.96,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(100)_cluster4Ir",
+    "timestamp": "2026-05-06T01:35:28.781786",
+    "status": "completed",
+    "E_clean_slab": 137.40812714105402,
+    "E_slab_with_h": 134.8166027638623,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.6873194268710887,
+    "adsorption_site": "top_1",
+    "h_position": [
+      1.1876890317166586,
+      2.2685634691602425,
+      24.78
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 70.06,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(100)_cluster4Pd",
+    "timestamp": "2026-05-06T01:36:38.840869",
+    "status": "completed",
+    "E_clean_slab": 68.97616111769423,
+    "E_slab_with_h": 66.63841251763222,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.9410952040007925,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      2.3876890317166586,
+      3.4685634691602423,
+      24.78
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 84.44,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(100)_cluster4Pt",
+    "timestamp": "2026-05-06T01:38:03.282571",
+    "status": "completed",
+    "E_clean_slab": 126.6436482420529,
+    "E_slab_with_h": 124.7331738348131,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 1.3683693968230028,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      2.3876890317166586,
+      3.4685634691602423,
+      24.78
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 82.51,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(111)",
+    "timestamp": "2026-05-06T01:39:25.796125",
+    "status": "completed",
+    "E_clean_slab": 467.13498634442954,
+    "E_slab_with_h": -4097.481635222812,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -4561.337777763179,
+    "adsorption_site": "top_5",
+    "h_position": [
+      3.071,
+      7.092170706725363,
+      23.79681884264245
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 158.71,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(111)_cluster2Ag",
+    "timestamp": "2026-05-06T01:42:04.502546",
+    "status": "completed",
+    "E_clean_slab": 993.5991342409031,
+    "E_slab_with_h": 991.587089685074,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 1.2667992482336996,
+    "adsorption_site": "top_1",
+    "h_position": [
+      1.527100286686202,
+      3.3169885163750377,
+      25.59681884264245
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 61.75,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(111)_cluster2Au",
+    "timestamp": "2026-05-06T01:43:06.253938",
+    "status": "completed",
+    "E_clean_slab": 897.4695941707005,
+    "E_slab_with_h": 896.0140516209817,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 1.8233012543440492,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.927100286686202,
+      3.3169885163750377,
+      25.59681884264245
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 65.8,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(111)_cluster2Ir",
+    "timestamp": "2026-05-06T01:44:12.052255",
+    "status": "completed",
+    "E_clean_slab": 993.125295994527,
+    "E_slab_with_h": 990.5264129665807,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.6799607761164208,
+    "adsorption_site": "top_1",
+    "h_position": [
+      1.527100286686202,
+      3.3169885163750377,
+      25.59681884264245
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 50.54,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(111)_cluster2Pd",
+    "timestamp": "2026-05-06T01:45:02.591104",
+    "status": "completed",
+    "E_clean_slab": 830.9682010607726,
+    "E_slab_with_h": 829.7577917135568,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 2.0684344568470334,
+    "adsorption_site": "top_1",
+    "h_position": [
+      1.527100286686202,
+      3.3169885163750377,
+      25.59681884264245
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 60.59,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(111)_cluster2Pt",
+    "timestamp": "2026-05-06T01:46:03.177862",
+    "status": "completed",
+    "E_clean_slab": 988.816418093104,
+    "E_slab_with_h": 987.6055797869167,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 2.0680054978755362,
+    "adsorption_site": "top_2",
+    "h_position": [
+      3.927100286686202,
+      3.3169885163750377,
+      25.59681884264245
+    ],
+    "n_sites_tried": 3,
+    "wall_seconds": 62.24,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(111)_cluster4Ag",
+    "timestamp": "2026-05-06T01:47:05.413974",
+    "status": "completed",
+    "E_clean_slab": 1258.8179487230693,
+    "E_slab_with_h": 1253.8013628013948,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.7377421176116985,
+    "adsorption_site": "top_3",
+    "h_position": [
+      1.527100286686202,
+      4.516988516375037,
+      25.59681884264245
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 122.83,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(111)_cluster4Au",
+    "timestamp": "2026-05-06T01:49:08.244223",
+    "status": "completed",
+    "E_clean_slab": 1150.9485470650873,
+    "E_slab_with_h": 1102.1536332208645,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -45.51607004015991,
+    "adsorption_site": "top_3",
+    "h_position": [
+      1.527100286686202,
+      4.516988516375037,
+      25.59681884264245
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 94.46,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(111)_cluster4Ir",
+    "timestamp": "2026-05-06T01:50:42.706527",
+    "status": "completed",
+    "E_clean_slab": 1415.5818516275071,
+    "E_slab_with_h": -6113.752009473291,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -7526.055017296736,
+    "adsorption_site": "top_3",
+    "h_position": [
+      1.527100286686202,
+      4.516988516375037,
+      25.59681884264245
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 141.87,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(111)_cluster4Pd",
+    "timestamp": "2026-05-06T01:53:04.577353",
+    "status": "completed",
+    "E_clean_slab": 1016.596125934401,
+    "E_slab_with_h": 1015.174015502801,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 1.8567333724628026,
+    "adsorption_site": "top_1",
+    "h_position": [
+      1.527100286686202,
+      2.116988516375038,
+      25.59681884264245
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 136.47,
+    "error": null
+  },
+  {
+    "formula": "Ni",
+    "surface": "Ti3C2O2_interface_(111)_cluster4Pt",
+    "timestamp": "2026-05-06T01:55:21.051304",
+    "status": "completed",
+    "E_clean_slab": 1245.879405406792,
+    "E_slab_with_h": 1244.6182895154598,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 2.0177279127304684,
+    "adsorption_site": "top_centroid",
+    "h_position": [
+      2.727100286686202,
+      3.316988516375037,
+      25.59681884264245
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 144.72,
+    "error": null
+  },
+  {
+    "formula": "Ti3C2O2",
+    "surface": "(100)",
+    "timestamp": "2026-05-06T01:57:45.773831",
+    "status": "completed",
+    "E_clean_slab": -932.2723000633976,
+    "E_slab_with_h": -937.7992641377833,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.2481202703229672,
+    "adsorption_site": "top_1",
+    "h_position": [
+      1.5355000000000008,
+      11.0,
+      19.251734721747376
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 43.61,
+    "error": null
+  },
+  {
+    "formula": "Ti3C2O2",
+    "surface": "(110)",
+    "timestamp": "2026-05-06T01:58:29.380159",
+    "status": "completed",
+    "E_clean_slab": -891.8052540317271,
+    "E_slab_with_h": -897.439248536403,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -2.355150700613105,
+    "adsorption_site": "top_3",
+    "h_position": [
+      3.546085353362683,
+      29.0,
+      15.642
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 55.2,
+    "error": null
+  },
+  {
+    "formula": "Ti3C2O2",
+    "surface": "(111)",
+    "timestamp": "2026-05-06T01:59:24.585311",
+    "status": "completed",
+    "E_clean_slab": -924.0632337922216,
+    "E_slab_with_h": -928.7381958318462,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": -1.3961182355617683,
+    "adsorption_site": "top_2",
+    "h_position": [
+      5.319128030044023,
+      11.437891820493288,
+      14.552281791129786
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 107.71,
+    "error": null
+  },
+  {
+    "formula": "graphene",
+    "surface": "N_doped",
+    "timestamp": "2026-05-06T02:01:12.297717",
+    "status": "completed",
+    "E_clean_slab": -293.8199955206055,
+    "E_slab_with_h": -296.40068103088555,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 0.6981582937827722,
+    "adsorption_site": "top_5",
+    "h_position": [
+      3.69,
+      3.5507041555161987,
+      11.5
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 27.13,
+    "error": null
+  },
+  {
+    "formula": "graphene",
+    "surface": "nanoribbon",
+    "timestamp": "2026-05-06T02:01:39.425705",
+    "status": "completed",
+    "E_clean_slab": -317.66807460802727,
+    "E_slab_with_h": -319.87122709702425,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 1.075691315065829,
+    "adsorption_site": "top_2",
+    "h_position": [
+      15.387604307034012,
+      2.130422493309719,
+      9.5
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 17.15,
+    "error": null
+  },
+  {
+    "formula": "graphene",
+    "surface": "sheet",
+    "timestamp": "2026-05-06T02:01:56.576200",
+    "status": "completed",
+    "E_clean_slab": -295.0215307200041,
+    "E_slab_with_h": -297.224397937309,
+    "E_h2": -6.557687608125613,
+    "\u0394GH": 1.0759765867578932,
+    "adsorption_site": "top_1",
+    "h_position": [
+      1.23,
+      3.5507041555161987,
+      11.5
+    ],
+    "n_sites_tried": 6,
+    "wall_seconds": 15.59,
+    "error": null
+  }
+]

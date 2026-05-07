@@ -1,13 +1,13 @@
 {
-  "E_h2_eV": -6.438412987227499,
-  "timestamp": "2026-04-27T08:35:42.042778",
+  "E_h2_eV": -6.438412987227449,
+  "timestamp": "2026-05-05T02:53:27.697853",
   "gpaw_config": {
     "mode": "lcao",
     "basis": "dzp",
     "xc": "LDA",
     "kpts": [
-      1,
-      1,
+      2,
+      2,
       1
     ],
     "txt": "gpaw.txt",
@@ -17,6 +17,6 @@
       "eigenstates": 1e-05
     }
   },
-  "relaxation_steps": 8,
-  "use_relaxation": false
+  "relaxation_steps": 4,
+  "use_relaxation": true
 }

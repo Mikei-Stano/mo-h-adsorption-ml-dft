@@ -19,7 +19,7 @@ This repository contains the scripts, inputs, outputs, and documentation for com
    - Run scripts/gpaw_h_adsorption.py
    - Auto-discovers all POSCAR directories under data/inputs/VASP_inputs
    - DEVANA: prefer one structure per SLURM task via scripts/submit_devana_gpaw_array.sh
-   - Desktop nodes (node1/node2/node3): run directly via scripts/run_desktop_machine.sh
+   - Desktop PCs: run directly via scripts/run_desktop_machine.sh with a selected machine profile
 3. Results
    - data/outputs/gpaw_h_adsorption_results.csv
 
@@ -37,10 +37,10 @@ This repository contains the scripts, inputs, outputs, and documentation for com
    - Generate and submit an array with ACCOUNT=myproject bash scripts/submit_devana_gpaw_array.sh
    - Each array task runs exactly one structure through scripts/devana_gpaw_array_worker.sh
 - Desktop usage (no SLURM):
-   - Run MACHINE=node1 bash scripts/run_desktop_machine.sh
-   - Run MACHINE=node2 bash scripts/run_desktop_machine.sh
-   - Run MACHINE=node3 bash scripts/run_desktop_machine.sh
-   - Tune local concurrency with CORES_PER_CALC and optional WORKERS
+   - Choose one existing machine profile in `scripts/gpaw_h_adsorption.py` (`node1`, `node2`, or `node3`) based on available CPU/RAM and assign that profile to your PC.
+   - Run `scripts/run_desktop_machine.sh` with that profile via `MACHINE=<profile>`.
+   - If your split differs, update `MACHINE_SPLITS` in `scripts/gpaw_h_adsorption.py` (or use `--include` patterns directly) so each PC gets a non-overlapping subset of structures.
+   - Tune local concurrency with `CORES_PER_CALC` and optional `WORKERS`.
 
 ## Updated Direction (2026-02-11)
 
