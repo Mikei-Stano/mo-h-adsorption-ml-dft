@@ -1,60 +1,101 @@
 # Mo H Adsorption ML-DFT Workflow
 
-This repository contains a two-stage ML-to-DFT workflow for computing hydrogen adsorption energies ($\Delta G_H$) on Mo-based compounds and interfaces. The current pipeline uses MACE-MP-0 for fast Stage 0 prescreening and GPAW for Stage 1 screening plus Stage 2 refinement.
+A three-stage ML-to-DFT pipeline for high-throughput screening of hydrogen adsorption
+free energies ($\Delta G_H$) on Mo-based catalysts (MoB, MoS₂, MoSe₂, Mo₂N, Mo₂C, MoP)
+and Ni/Mo interface models for HER applications.
 
-## Structure
+## Pipeline overview
 
-- scripts/ — runnable scripts (MACE prescreening, GPAW screening/refinement, launchers)
-- data/inputs/ — POSCAR inputs
-- data/outputs/ — cached results, shortlists, H2 references, and GPAW outputs
-- docs/ — methodology and reports
+| Stage | Method | Basis / XC | Structures | Purpose |
+|-------|--------|------------|------------|---------|
+| 0 | MACE-MP-0 | universal ML FF | 342 | pre-filter, rank by ΔGH |
+| 1 | GPAW LCAO | sz / LDA | 30 (shortlist) | fast DFT screening |
+| 2 | GPAW LCAO | dzp / PBE | 8 (excellent) | quantitative refinement |
 
-## Quick Start
+Stage 0 and Stage 1 pre-computed results are versioned in `data/outputs/` so other nodes
+can skip the expensive calculation steps.
 
-1. Create POSCAR inputs
-   - Run scripts/generate_structures.py
-   - Generates basal slabs, edge ribbons, vacancies, dopants, and interface models
-2. Run Stage 0 ML prescreening
-   - Run scripts/mace_screening.py
-   - Produces data/outputs/mace_h_adsorption_stage0_screening.csv and JSON cache files
-3. Run Stage 1 GPAW screening
-   - Run scripts/gpaw_h_adsorption.py --stage screening
-   - For MPI-enabled desktops, prefer scripts/run_node1_mpi.sh
-   - For non-MPI desktops, use scripts/run_desktop_machine.sh or scripts/run_node1_threaded.sh
-   - For DEVANA, use scripts/submit_devana_gpaw_array.sh
-4. Run Stage 2 GPAW refinement
-   - Re-run the shortlist with --stage refinement and a manifest from data/outputs/manifests/
+## Repository layout
 
-## Main Outputs
+```
+scripts/              MACE prescreening, GPAW screening/refinement, launchers
+data/inputs/          POSCAR slab inputs
+data/outputs/         cached Stage 0 & 1 results, manifests, H2 references
+dopant_shortlist.json noble-metal dopant candidates (Ag, Au, Ir, Ni, Pd, Pt, Ru)
+requirements.txt      Python dependencies
+```
 
-- data/outputs/mace_h_adsorption_stage0_screening.csv
-- data/outputs/gpaw_h_adsorption_stage1_screening_sz.csv
-- data/outputs/manifests/stage1_shortlist_*.txt
-- data/outputs/h2_reference_*.json
+## Setup
+
+```bash
+# Using pyenv (default env name: cemea-env)
+pyenv install 3.10.x
+pyenv virtualenv 3.10.x cemea-env
+pip install -r requirements.txt
+# GPAW with MPI + ScaLAPACK: run scripts/rebuild_gpaw_with_mpi.sh
+```
+
+## Running the pipeline
+
+### Stage 0 — ML prescreening (9–10 h, skippable if CSV present)
+```bash
+python scripts/mace_screening.py
+```
+
+### Stage 1 — GPAW screening (MPI, ~2–3 h for 30 structures)
+```bash
+# MPI launcher (portable; set RANKS, MACHINE, ENV_NAME as needed)
+bash scripts/run_node1_mpi.sh
+
+# Or directly:
+mpiexec -n 16 python scripts/gpaw_h_adsorption.py \
+    --stage screening --mpi --scalapack \
+    --structure-list data/outputs/manifests/stage1_shortlist_abs_le_0p50.txt
+```
+
+### Stage 2 — GPAW refinement (MPI, ~1–2 days for 8 structures)
+```bash
+mpiexec -n 16 python scripts/gpaw_h_adsorption.py \
+    --stage refinement --mpi --scalapack \
+    --structure-list data/outputs/manifests/stage1_shortlist_abs_le_0p30.txt
+```
+
+### SLURM (DEVANA cluster)
+```bash
+ACCOUNT=myproject bash scripts/submit_devana_gpaw_array.sh
+```
+
+### Other desktop nodes
+```bash
+MACHINE=node2 bash scripts/run_desktop_machine.sh
+```
+Set `MACHINE` to `node1`, `node2`, or `node3` depending on the PC profile.
+The launchers resolve the Python binary automatically from `PYENV_ROOT` and `ENV_NAME`.
+
+## Pre-computed results (versioned)
+
+| File | Contents |
+|------|----------|
+| `data/outputs/mace_h_adsorption_stage0_screening.csv` | 342-structure MACE-MP-0 ΔGH |
+| `data/outputs/gpaw_h_adsorption_stage1_screening_sz.csv` | 27/30 GPAW Stage 1 results |
+| `data/outputs/manifests/` | shortlists for Stage 2 |
+| `data/outputs/h2_reference_*.json` | H2 energy caches per profile |
+
+## Stage 1 highlights (sz/LDA/MPI, May 2026)
+
+Top 8 candidates with |ΔGH| ≤ 0.30 eV (see `data/outputs/manifests/stage1_shortlist_abs_le_0p30.txt`).
+The Mo₂C family was excluded from refinement (ΔGH ≈ −1.5 eV, far outside the HER optimum).
+
+## Scientific context
+
+This workflow follows the current SOTA for high-throughput HER screening:
+ΔGH is used as a first-pass thermodynamic descriptor (Stage 0/1), followed by
+higher-fidelity refinement (Stage 2, dzp/PBE) for the top candidates.
+See `SOTA.txt` for a detailed discussion of methodological limitations and next steps
+(solvation, kinetics, two-descriptor approaches).
 
 ## Notes
 
-- GPAW must be installed and accessible in your environment.
-- For the MPI path, run `mpiexec -n N <python> scripts/gpaw_h_adsorption.py ...`; do not use `gpaw python`.
-- Calculations are configured for slab models with vacuum spacing.
-- Noble metal dopant shortlist is in dopant_shortlist.json.
-- DEVANA usage:
-   - Generate and submit an array with ACCOUNT=myproject bash scripts/submit_devana_gpaw_array.sh
-   - Each array task runs exactly one structure through scripts/devana_gpaw_array_worker.sh
-- Desktop usage (no SLURM):
-   - Choose one existing machine profile in scripts/gpaw_h_adsorption.py (`node1`, `node2`, or `node3`) based on available CPU/RAM and assign that profile to your PC.
-   - Run scripts/run_desktop_machine.sh with that profile via `MACHINE=<profile>`.
-   - If your split differs, update `MACHINE_SPLITS` in scripts/gpaw_h_adsorption.py (or use `--include` patterns directly) so each PC gets a non-overlapping subset of structures.
-   - Tune local concurrency with `CORES_PER_CALC` and optional `WORKERS`.
-
-## GitHub Transfer
-
-- The repository is portable across machines via `PYENV_ROOT`, `ENV_NAME`, `PYBIN`, `PYTHON`, `RANKS`, and `MACHINE` environment variables.
-- Stage 0 prescreening CSV/JSON, Stage 1 screening CSV/JSON, manifests, and H2 reference caches are intentionally versioned so other nodes can resume without recomputing them.
-
-## Updated Direction (2026-02-11)
-
-- MoS2/MoSe2 basal planes are inert; next modeling should target edge sites and defects.
-- Mo2N remains the strongest candidate; refine with defects/dopants.
-- Use OCx24 to shortlist noble metal dopants for Ni/Mo composite interfaces.
-- Use VASP only for final validation of top candidates.
+- Do not use `gpaw python` as the launcher; it swallows script arguments. Use `mpiexec -n N python scripts/gpaw_h_adsorption.py`.
+- POTCAR files under `data/inputs/VASP_inputs/` are empty placeholders (VASP licence required to populate them).
+- Noble metal dopant shortlist: `dopant_shortlist.json`.

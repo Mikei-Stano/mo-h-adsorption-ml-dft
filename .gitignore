@@ -5,9 +5,24 @@ __pycache__/
 
 # GPAW heavy outputs
 /data/outputs/gpaw_calculations/
+/data/outputs_local/
+
+# Intermediate / legacy result files (pre-Stage1 calibration era)
+data/outputs/gpaw_h_adsorption_results.csv
+data/outputs/gpaw_h_adsorption_results.json
+data/outputs/gpaw_h_adsorption_results_partial.csv
+data/outputs/gpaw_h_adsorption_results_combined_flagged.csv
+data/outputs/gpaw_h_adsorption_results_v2.csv
+data/outputs/gpaw_h_adsorption_results_v2.json
+
+# MACE intermediate calculation cache (large, regeneratable)
+/data/outputs/mace_calculations/
 
 # Docs (keep locally, ignore in git)
 /docs/
+
+# VASP pseudopotentials (proprietary — do not commit)
+POTCAR
 
 # Optional: Jupyter
 .ipynb_checkpoints/
@@ -23,6 +38,7 @@ _gpaw_build_*.log
 # Explicitly keep pre-computed Stage 0/1 results (other nodes use these as checkpoints)
 !data/outputs/mace_h_adsorption_stage0_screening.csv
 !data/outputs/gpaw_h_adsorption_stage1_screening_sz.csv
+!data/outputs/gpaw_h_adsorption_stage1_screening_sz.json
 !data/outputs/manifests/
 !data/outputs/manifests/**
 !data/outputs/h2_reference_*.json
