@@ -3,10 +3,13 @@
 # Usage:  bash scripts/benchmark_node1_mpi.sh <STRUCTURE_NAME>
 set -euo pipefail
 
-cd ~/Dokumenty/code/cemea-calculate/mo-h-adsorption-gpaw
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$REPO_ROOT"
 
 STRUCTURE_NAME="${1:-MoB_example_structure}"
-PYBIN="/home/mikei/.pyenv/versions/cemea-env/bin/python"
+PYENV_ROOT="${PYENV_ROOT:-${HOME}/.pyenv}"
+ENV_NAME="${ENV_NAME:-cemea-env}"
+PYBIN="${PYBIN:-${PYENV_ROOT}/versions/${ENV_NAME}/bin/python}"
 LOGDIR="logs/benchmark_$(date +%F_%H%M%S)"
 mkdir -p "${LOGDIR}"
 
@@ -27,7 +30,7 @@ run_bench() {
     echo " log: ${log}"
     echo "============================================================"
 
-    /usr/bin/time -v mpiexec -n "${ranks}" gpaw python scripts/gpaw_h_adsorption.py \
+    /usr/bin/time -v mpiexec -n "${ranks}" "${PYBIN}" scripts/gpaw_h_adsorption.py \
         --stage screening \
         --mpi \
         --scalapack \

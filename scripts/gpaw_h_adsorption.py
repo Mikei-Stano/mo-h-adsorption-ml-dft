@@ -6,7 +6,7 @@ Stage 2 (refinement): dzp/PBE rerun with rich H-site search for shortlist.
 
 Robustness:
 - GPAW .gpw checkpoint + ASE BFGS trajectory restart (per-structure resume)
-- Real GPAW MPI parallelism (mpiexec -n N gpaw python ...) with ScaLAPACK/ELPA
+- Real GPAW MPI parallelism (mpiexec -n N python ...) with ScaLAPACK/ELPA
 - MPI-safe I/O (rank 0 writes CSV/JSON/H2 cache; barriers where required)
 - Profile-specific H2 reference cache (never shared across basis/xc/mode/stage)
 - Per-structure timeout retained as opt-in calibration/watchdog only

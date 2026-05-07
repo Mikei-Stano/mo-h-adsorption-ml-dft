@@ -16,7 +16,9 @@
 # Usage:  sudo -v && bash scripts/rebuild_gpaw_with_mpi.sh
 set -euo pipefail
 
-PYENV="${PYENV:-/home/mikei/.pyenv/versions/cemea-env}"
+PYENV_ROOT="${PYENV_ROOT:-${HOME}/.pyenv}"
+ENV_NAME="${ENV_NAME:-cemea-env}"
+PYENV="${PYENV:-${PYENV_ROOT}/versions/${ENV_NAME}}"
 PYTHON="$PYENV/bin/python"
 PIP="$PYENV/bin/pip"
 
